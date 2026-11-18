@@ -1,0 +1,38 @@
+{
+  "name": "editor-videos",
+  "version": "1.0.0",
+  "description": "Editor de videos programático con Remotion, ElevenLabs, Python (faster-whisper) y FFmpeg",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render",
+    "voces": "node scripts/elevenlabs.mjs voces",
+    "voz": "node scripts/elevenlabs.mjs voz",
+    "musica": "node scripts/elevenlabs.mjs musica",
+    "efecto": "node scripts/elevenlabs.mjs efecto",
+    "tiempos": "node scripts/tiempos.mjs",
+    "transcribir": ".venv/bin/python herramientas/transcribir.py",
+    "cortes": ".venv/bin/python herramientas/cortes_silencio.py",
+    "shorts": ".venv/bin/python herramientas/extraer_shorts.py",
+    "sonido": ".venv/bin/python herramientas/descargar_sonidos_cc0.py",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.17.10",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/media-utils": "^4.0.0",
+    "@remotion/three": "^4.0.0",
+    "dotenv": "^16.4.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.170.0",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "actualizado": "2026-11-18",
+  "recursos": [
+    {
+      "id": "ejemplo-voz",
+      "tipo": "audio",
+      "ruta": "public/audio/",
+      "descripcion": "Carpeta para voces, música y efectos generados con ElevenLabs o descargados CC0",
+      "estado": "pendiente"
+    },
+    {
+      "id": "ejemplo-material",
+      "tipo": "video",
+      "ruta": "public/material/",
+      "descripcion": "Carpeta para clips crudos, B-roll e imágenes",
+      "estado": "pendiente"
+    },
+    {
+      "id": "ejemplo-logos",
+      "tipo": "imagen",
+      "ruta": "public/logos/",
+      "descripcion": "Logotipos e isotipos de marca referenciados en src/marca.ts",
+      "estado": "pendiente"
+    }
+  ]
+}
