@@ -9,6 +9,7 @@
     "render": "remotion render",
     "voces": "node scripts/elevenlabs.mjs voces",
     "voz": "node scripts/elevenlabs.mjs voz",
+    "voz-gratis": ".venv/bin/python herramientas/voz_gratis.py",
     "musica": "node scripts/elevenlabs.mjs musica",
     "efecto": "node scripts/elevenlabs.mjs efecto",
     "tiempos": "node scripts/tiempos.mjs",

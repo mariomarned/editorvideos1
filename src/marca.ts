@@ -6,8 +6,8 @@ export const MARCA = {
   nombre: "NED",
   descripcion:
     "Marketplace social enfocado en Lealtad. App móvil para negocios y consumidores con versión web para negocios.",
-  eslogan: "Lealtad que conecta negocios y personas",
-  sitioWeb: "ned.app",
+  eslogan: "Más clientes · Más ventas · Más juntos",
+  sitioWeb: "www.ned.mobi",
   handle: "@ned",
   logos: {
     claro: "logos/ned-claro.png",

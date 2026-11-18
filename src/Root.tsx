@@ -4,10 +4,19 @@ import { MARCA } from "./marca";
 import { Escena3DEjemplo } from "./composiciones/Escena3DEjemplo";
 import { ShortEjemplo } from "./composiciones/ShortEjemplo";
 import { VideoEjemplo } from "./composiciones/VideoEjemplo";
+import { NedZencilloReel } from "./videos/01-ned-zencillo/NedZencilloReel";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="NedZencilloReel"
+        component={NedZencilloReel}
+        durationInFrames={1320}
+        fps={MARCA.video.fps}
+        width={MARCA.video.vertical.width}
+        height={MARCA.video.vertical.height}
+      />
       <Composition
         id="ShortEjemplo"
         component={ShortEjemplo}

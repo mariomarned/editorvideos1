@@ -1,0 +1,882 @@
+[
+  {
+    "texto": "Las dinámicas comerciales",
+    "inicioFrame": 3,
+    "finFrame": 37,
+    "palabras": [
+      {
+        "palabra": "Las",
+        "inicioFrame": 3,
+        "finFrame": 8
+      },
+      {
+        "palabra": "dinámicas",
+        "inicioFrame": 9,
+        "finFrame": 23
+      },
+      {
+        "palabra": "comerciales",
+        "inicioFrame": 25,
+        "finFrame": 37
+      }
+    ]
+  },
+  {
+    "texto": "profesionales ya no",
+    "inicioFrame": 39,
+    "finFrame": 63,
+    "palabras": [
+      {
+        "palabra": "profesionales",
+        "inicioFrame": 39,
+        "finFrame": 56
+      },
+      {
+        "palabra": "ya",
+        "inicioFrame": 58,
+        "finFrame": 60
+      },
+      {
+        "palabra": "no",
+        "inicioFrame": 61,
+        "finFrame": 63
+      }
+    ]
+  },
+  {
+    "texto": "son solo de",
+    "inicioFrame": 64,
+    "finFrame": 77,
+    "palabras": [
+      {
+        "palabra": "son",
+        "inicioFrame": 64,
+        "finFrame": 68
+      },
+      {
+        "palabra": "solo",
+        "inicioFrame": 69,
+        "finFrame": 75
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 76,
+        "finFrame": 77
+      }
+    ]
+  },
+  {
+    "texto": "las grandes marcas",
+    "inicioFrame": 78,
+    "finFrame": 107,
+    "palabras": [
+      {
+        "palabra": "las",
+        "inicioFrame": 78,
+        "finFrame": 81
+      },
+      {
+        "palabra": "grandes",
+        "inicioFrame": 82,
+        "finFrame": 91
+      },
+      {
+        "palabra": "marcas",
+        "inicioFrame": 92,
+        "finFrame": 107
+      }
+    ]
+  },
+  {
+    "texto": "Con NED todos",
+    "inicioFrame": 132,
+    "finFrame": 148,
+    "palabras": [
+      {
+        "palabra": "Con",
+        "inicioFrame": 132,
+        "finFrame": 137
+      },
+      {
+        "palabra": "NED",
+        "inicioFrame": 137,
+        "finFrame": 141
+      },
+      {
+        "palabra": "todos",
+        "inicioFrame": 143,
+        "finFrame": 148
+      }
+    ]
+  },
+  {
+    "texto": "tienen acceso a",
+    "inicioFrame": 149,
+    "finFrame": 168,
+    "palabras": [
+      {
+        "palabra": "tienen",
+        "inicioFrame": 149,
+        "finFrame": 156
+      },
+      {
+        "palabra": "acceso",
+        "inicioFrame": 156,
+        "finFrame": 167
+      },
+      {
+        "palabra": "a",
+        "inicioFrame": 167,
+        "finFrame": 168
+      }
+    ]
+  },
+  {
+    "texto": "ellas Mantener enganchados",
+    "inicioFrame": 170,
+    "finFrame": 237,
+    "palabras": [
+      {
+        "palabra": "ellas",
+        "inicioFrame": 170,
+        "finFrame": 181
+      },
+      {
+        "palabra": "Mantener",
+        "inicioFrame": 207,
+        "finFrame": 220
+      },
+      {
+        "palabra": "enganchados",
+        "inicioFrame": 220,
+        "finFrame": 237
+      }
+    ]
+  },
+  {
+    "texto": "a tus clientes",
+    "inicioFrame": 237,
+    "finFrame": 257,
+    "palabras": [
+      {
+        "palabra": "a",
+        "inicioFrame": 237,
+        "finFrame": 238
+      },
+      {
+        "palabra": "tus",
+        "inicioFrame": 240,
+        "finFrame": 244
+      },
+      {
+        "palabra": "clientes",
+        "inicioFrame": 246,
+        "finFrame": 257
+      }
+    ]
+  },
+  {
+    "texto": "es más fácil",
+    "inicioFrame": 257,
+    "finFrame": 274,
+    "palabras": [
+      {
+        "palabra": "es",
+        "inicioFrame": 257,
+        "finFrame": 260
+      },
+      {
+        "palabra": "más",
+        "inicioFrame": 261,
+        "finFrame": 266
+      },
+      {
+        "palabra": "fácil",
+        "inicioFrame": 266,
+        "finFrame": 274
+      }
+    ]
+  },
+  {
+    "texto": "que nunca con",
+    "inicioFrame": 276,
+    "finFrame": 292,
+    "palabras": [
+      {
+        "palabra": "que",
+        "inicioFrame": 276,
+        "finFrame": 278
+      },
+      {
+        "palabra": "nunca",
+        "inicioFrame": 279,
+        "finFrame": 287
+      },
+      {
+        "palabra": "con",
+        "inicioFrame": 288,
+        "finFrame": 292
+      }
+    ]
+  },
+  {
+    "texto": "planes de puntos",
+    "inicioFrame": 293,
+    "finFrame": 321,
+    "palabras": [
+      {
+        "palabra": "planes",
+        "inicioFrame": 293,
+        "finFrame": 301
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 302,
+        "finFrame": 304
+      },
+      {
+        "palabra": "puntos",
+        "inicioFrame": 306,
+        "finFrame": 321
+      }
+    ]
+  },
+  {
+    "texto": "referidos cumpleaños y",
+    "inicioFrame": 329,
+    "finFrame": 372,
+    "palabras": [
+      {
+        "palabra": "referidos",
+        "inicioFrame": 329,
+        "finFrame": 347
+      },
+      {
+        "palabra": "cumpleaños",
+        "inicioFrame": 353,
+        "finFrame": 370
+      },
+      {
+        "palabra": "y",
+        "inicioFrame": 371,
+        "finFrame": 372
+      }
+    ]
+  },
+  {
+    "texto": "mucho más Digitaliza",
+    "inicioFrame": 373,
+    "finFrame": 433,
+    "palabras": [
+      {
+        "palabra": "mucho",
+        "inicioFrame": 373,
+        "finFrame": 379
+      },
+      {
+        "palabra": "más",
+        "inicioFrame": 380,
+        "finFrame": 389
+      },
+      {
+        "palabra": "Digitaliza",
+        "inicioFrame": 414,
+        "finFrame": 433
+      }
+    ]
+  },
+  {
+    "texto": "tu negocio muy",
+    "inicioFrame": 435,
+    "finFrame": 452,
+    "palabras": [
+      {
+        "palabra": "tu",
+        "inicioFrame": 435,
+        "finFrame": 437
+      },
+      {
+        "palabra": "negocio",
+        "inicioFrame": 438,
+        "finFrame": 448
+      },
+      {
+        "palabra": "muy",
+        "inicioFrame": 448,
+        "finFrame": 452
+      }
+    ]
+  },
+  {
+    "texto": "fácil desde la",
+    "inicioFrame": 453,
+    "finFrame": 472,
+    "palabras": [
+      {
+        "palabra": "fácil",
+        "inicioFrame": 453,
+        "finFrame": 462
+      },
+      {
+        "palabra": "desde",
+        "inicioFrame": 463,
+        "finFrame": 469
+      },
+      {
+        "palabra": "la",
+        "inicioFrame": 470,
+        "finFrame": 472
+      }
+    ]
+  },
+  {
+    "texto": "app publica tu",
+    "inicioFrame": 472,
+    "finFrame": 496,
+    "palabras": [
+      {
+        "palabra": "app",
+        "inicioFrame": 472,
+        "finFrame": 477
+      },
+      {
+        "palabra": "publica",
+        "inicioFrame": 483,
+        "finFrame": 493
+      },
+      {
+        "palabra": "tu",
+        "inicioFrame": 495,
+        "finFrame": 496
+      }
+    ]
+  },
+  {
+    "texto": "catálogo de productos",
+    "inicioFrame": 498,
+    "finFrame": 526,
+    "palabras": [
+      {
+        "palabra": "catálogo",
+        "inicioFrame": 498,
+        "finFrame": 509
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 511,
+        "finFrame": 512
+      },
+      {
+        "palabra": "productos",
+        "inicioFrame": 513,
+        "finFrame": 526
+      }
+    ]
+  },
+  {
+    "texto": "o servicios habilita",
+    "inicioFrame": 526,
+    "finFrame": 568,
+    "palabras": [
+      {
+        "palabra": "o",
+        "inicioFrame": 526,
+        "finFrame": 527
+      },
+      {
+        "palabra": "servicios",
+        "inicioFrame": 528,
+        "finFrame": 547
+      },
+      {
+        "palabra": "habilita",
+        "inicioFrame": 557,
+        "finFrame": 568
+      }
+    ]
+  },
+  {
+    "texto": "ventas fiadas o",
+    "inicioFrame": 569,
+    "finFrame": 589,
+    "palabras": [
+      {
+        "palabra": "ventas",
+        "inicioFrame": 569,
+        "finFrame": 578
+      },
+      {
+        "palabra": "fiadas",
+        "inicioFrame": 578,
+        "finFrame": 588
+      },
+      {
+        "palabra": "o",
+        "inicioFrame": 588,
+        "finFrame": 589
+      }
+    ]
+  },
+  {
+    "texto": "reservas de citas",
+    "inicioFrame": 590,
+    "finFrame": 621,
+    "palabras": [
+      {
+        "palabra": "reservas",
+        "inicioFrame": 590,
+        "finFrame": 602
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 603,
+        "finFrame": 605
+      },
+      {
+        "palabra": "citas",
+        "inicioFrame": 606,
+        "finFrame": 621
+      }
+    ]
+  },
+  {
+    "texto": "y lo mejor",
+    "inicioFrame": 625,
+    "finFrame": 638,
+    "palabras": [
+      {
+        "palabra": "y",
+        "inicioFrame": 625,
+        "finFrame": 627
+      },
+      {
+        "palabra": "lo",
+        "inicioFrame": 628,
+        "finFrame": 630
+      },
+      {
+        "palabra": "mejor",
+        "inicioFrame": 631,
+        "finFrame": 638
+      }
+    ]
+  },
+  {
+    "texto": "de todo es",
+    "inicioFrame": 639,
+    "finFrame": 659,
+    "palabras": [
+      {
+        "palabra": "de",
+        "inicioFrame": 639,
+        "finFrame": 641
+      },
+      {
+        "palabra": "todo",
+        "inicioFrame": 643,
+        "finFrame": 650
+      },
+      {
+        "palabra": "es",
+        "inicioFrame": 655,
+        "finFrame": 659
+      }
+    ]
+  },
+  {
+    "texto": "gratuita Queremos enseñarte",
+    "inicioFrame": 660,
+    "finFrame": 726,
+    "palabras": [
+      {
+        "palabra": "gratuita",
+        "inicioFrame": 660,
+        "finFrame": 675
+      },
+      {
+        "palabra": "Queremos",
+        "inicioFrame": 700,
+        "finFrame": 713
+      },
+      {
+        "palabra": "enseñarte",
+        "inicioFrame": 713,
+        "finFrame": 726
+      }
+    ]
+  },
+  {
+    "texto": "cómo hacer crecer",
+    "inicioFrame": 727,
+    "finFrame": 747,
+    "palabras": [
+      {
+        "palabra": "cómo",
+        "inicioFrame": 727,
+        "finFrame": 732
+      },
+      {
+        "palabra": "hacer",
+        "inicioFrame": 732,
+        "finFrame": 738
+      },
+      {
+        "palabra": "crecer",
+        "inicioFrame": 739,
+        "finFrame": 747
+      }
+    ]
+  },
+  {
+    "texto": "tus ventas logrando",
+    "inicioFrame": 749,
+    "finFrame": 773,
+    "palabras": [
+      {
+        "palabra": "tus",
+        "inicioFrame": 749,
+        "finFrame": 752
+      },
+      {
+        "palabra": "ventas",
+        "inicioFrame": 754,
+        "finFrame": 762
+      },
+      {
+        "palabra": "logrando",
+        "inicioFrame": 763,
+        "finFrame": 773
+      }
+    ]
+  },
+  {
+    "texto": "que tus clientes",
+    "inicioFrame": 774,
+    "finFrame": 794,
+    "palabras": [
+      {
+        "palabra": "que",
+        "inicioFrame": 774,
+        "finFrame": 777
+      },
+      {
+        "palabra": "tus",
+        "inicioFrame": 778,
+        "finFrame": 782
+      },
+      {
+        "palabra": "clientes",
+        "inicioFrame": 784,
+        "finFrame": 794
+      }
+    ]
+  },
+  {
+    "texto": "te recomienden y",
+    "inicioFrame": 795,
+    "finFrame": 815,
+    "palabras": [
+      {
+        "palabra": "te",
+        "inicioFrame": 795,
+        "finFrame": 797
+      },
+      {
+        "palabra": "recomienden",
+        "inicioFrame": 798,
+        "finFrame": 813
+      },
+      {
+        "palabra": "y",
+        "inicioFrame": 814,
+        "finFrame": 815
+      }
+    ]
+  },
+  {
+    "texto": "vuelvan a comprar",
+    "inicioFrame": 817,
+    "finFrame": 839,
+    "palabras": [
+      {
+        "palabra": "vuelvan",
+        "inicioFrame": 817,
+        "finFrame": 824
+      },
+      {
+        "palabra": "a",
+        "inicioFrame": 824,
+        "finFrame": 826
+      },
+      {
+        "palabra": "comprar",
+        "inicioFrame": 828,
+        "finFrame": 839
+      }
+    ]
+  },
+  {
+    "texto": "Junto a Zencillo",
+    "inicioFrame": 865,
+    "finFrame": 891,
+    "palabras": [
+      {
+        "palabra": "Junto",
+        "inicioFrame": 865,
+        "finFrame": 874
+      },
+      {
+        "palabra": "a",
+        "inicioFrame": 874,
+        "finFrame": 875
+      },
+      {
+        "palabra": "Zencillo",
+        "inicioFrame": 876,
+        "finFrame": 891
+      }
+    ]
+  },
+  {
+    "texto": "expertos en software",
+    "inicioFrame": 899,
+    "finFrame": 925,
+    "palabras": [
+      {
+        "palabra": "expertos",
+        "inicioFrame": 899,
+        "finFrame": 913
+      },
+      {
+        "palabra": "en",
+        "inicioFrame": 913,
+        "finFrame": 916
+      },
+      {
+        "palabra": "software",
+        "inicioFrame": 916,
+        "finFrame": 925
+      }
+    ]
+  },
+  {
+    "texto": "empresarial te mostraremos",
+    "inicioFrame": 925,
+    "finFrame": 967,
+    "palabras": [
+      {
+        "palabra": "empresarial",
+        "inicioFrame": 925,
+        "finFrame": 944
+      },
+      {
+        "palabra": "te",
+        "inicioFrame": 952,
+        "finFrame": 953
+      },
+      {
+        "palabra": "mostraremos",
+        "inicioFrame": 954,
+        "finFrame": 967
+      }
+    ]
+  },
+  {
+    "texto": "Zencillo POS Mobile",
+    "inicioFrame": 967,
+    "finFrame": 997,
+    "palabras": [
+      {
+        "palabra": "Zencillo",
+        "inicioFrame": 967,
+        "finFrame": 979
+      },
+      {
+        "palabra": "POS",
+        "inicioFrame": 981,
+        "finFrame": 984
+      },
+      {
+        "palabra": "Mobile",
+        "inicioFrame": 985,
+        "finFrame": 997
+      }
+    ]
+  },
+  {
+    "texto": "una experiencia móvil",
+    "inicioFrame": 1004,
+    "finFrame": 1031,
+    "palabras": [
+      {
+        "palabra": "una",
+        "inicioFrame": 1004,
+        "finFrame": 1008
+      },
+      {
+        "palabra": "experiencia",
+        "inicioFrame": 1008,
+        "finFrame": 1022
+      },
+      {
+        "palabra": "móvil",
+        "inicioFrame": 1023,
+        "finFrame": 1031
+      }
+    ]
+  },
+  {
+    "texto": "para vender cobrar",
+    "inicioFrame": 1033,
+    "finFrame": 1068,
+    "palabras": [
+      {
+        "palabra": "para",
+        "inicioFrame": 1033,
+        "finFrame": 1038
+      },
+      {
+        "palabra": "vender",
+        "inicioFrame": 1038,
+        "finFrame": 1050
+      },
+      {
+        "palabra": "cobrar",
+        "inicioFrame": 1056,
+        "finFrame": 1068
+      }
+    ]
+  },
+  {
+    "texto": "facturar y mantener",
+    "inicioFrame": 1073,
+    "finFrame": 1102,
+    "palabras": [
+      {
+        "palabra": "facturar",
+        "inicioFrame": 1073,
+        "finFrame": 1088
+      },
+      {
+        "palabra": "y",
+        "inicioFrame": 1088,
+        "finFrame": 1090
+      },
+      {
+        "palabra": "mantener",
+        "inicioFrame": 1090,
+        "finFrame": 1102
+      }
+    ]
+  },
+  {
+    "texto": "tu operación conectada",
+    "inicioFrame": 1103,
+    "finFrame": 1135,
+    "palabras": [
+      {
+        "palabra": "tu",
+        "inicioFrame": 1103,
+        "finFrame": 1105
+      },
+      {
+        "palabra": "operación",
+        "inicioFrame": 1105,
+        "finFrame": 1119
+      },
+      {
+        "palabra": "conectada",
+        "inicioFrame": 1120,
+        "finFrame": 1135
+      }
+    ]
+  },
+  {
+    "texto": "Prepárate para llevar",
+    "inicioFrame": 1161,
+    "finFrame": 1188,
+    "palabras": [
+      {
+        "palabra": "Prepárate",
+        "inicioFrame": 1161,
+        "finFrame": 1175
+      },
+      {
+        "palabra": "para",
+        "inicioFrame": 1177,
+        "finFrame": 1181
+      },
+      {
+        "palabra": "llevar",
+        "inicioFrame": 1182,
+        "finFrame": 1188
+      }
+    ]
+  },
+  {
+    "texto": "tu negocio al",
+    "inicioFrame": 1190,
+    "finFrame": 1205,
+    "palabras": [
+      {
+        "palabra": "tu",
+        "inicioFrame": 1190,
+        "finFrame": 1192
+      },
+      {
+        "palabra": "negocio",
+        "inicioFrame": 1193,
+        "finFrame": 1203
+      },
+      {
+        "palabra": "al",
+        "inicioFrame": 1203,
+        "finFrame": 1205
+      }
+    ]
+  },
+  {
+    "texto": "siguiente nivel con",
+    "inicioFrame": 1205,
+    "finFrame": 1231,
+    "palabras": [
+      {
+        "palabra": "siguiente",
+        "inicioFrame": 1205,
+        "finFrame": 1217
+      },
+      {
+        "palabra": "nivel",
+        "inicioFrame": 1218,
+        "finFrame": 1226
+      },
+      {
+        "palabra": "con",
+        "inicioFrame": 1228,
+        "finFrame": 1231
+      }
+    ]
+  },
+  {
+    "texto": "NED y Zencillo",
+    "inicioFrame": 1232,
+    "finFrame": 1254,
+    "palabras": [
+      {
+        "palabra": "NED",
+        "inicioFrame": 1232,
+        "finFrame": 1236
+      },
+      {
+        "palabra": "y",
+        "inicioFrame": 1237,
+        "finFrame": 1238
+      },
+      {
+        "palabra": "Zencillo",
+        "inicioFrame": 1238,
+        "finFrame": 1254
+      }
+    ]
+  }
+]

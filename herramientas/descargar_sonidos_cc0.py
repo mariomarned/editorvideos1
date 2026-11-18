@@ -2,9 +2,13 @@
 
 import argparse
 import json
+import ssl
 import urllib.parse
 import urllib.request
 from pathlib import Path
+import certifi
+
+SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
 
 
 def buscar_y_descargar(query: str, carpeta: str = "public/audio/cc0", limite: int = 3) -> None:
@@ -18,7 +22,7 @@ def buscar_y_descargar(query: str, carpeta: str = "public/audio/cc0", limite: in
     url = f"https://api.openverse.org/v1/audio/?{params}"
     req = urllib.request.Request(url, headers={"User-Agent": "EditorVideos/1.0"})
 
-    with urllib.request.urlopen(req, timeout=20) as resp:
+    with urllib.request.urlopen(req, timeout=20, context=SSL_CONTEXT) as resp:
         data = json.loads(resp.read().decode("utf-8"))
 
     resultados = data.get("results", [])
@@ -39,7 +43,9 @@ def buscar_y_descargar(query: str, carpeta: str = "public/audio/cc0", limite: in
         archivo = destino / f"{limpio}{ext}"
 
         print(f"Descargando: {item.get('title')} -> {archivo}")
-        urllib.request.urlretrieve(audio_url, archivo)
+        dl_req = urllib.request.Request(audio_url, headers={"User-Agent": "EditorVideos/1.0"})
+        with urllib.request.urlopen(dl_req, timeout=30, context=SSL_CONTEXT) as dl_resp:
+            archivo.write_bytes(dl_resp.read())
 
 
 def main() -> None:
