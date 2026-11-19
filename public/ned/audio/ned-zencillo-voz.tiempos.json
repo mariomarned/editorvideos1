@@ -1,0 +1,606 @@
+{
+  "texto": "Las dinámicas comerciales profesionales ya no son solo de las grandes marcas. Con NED todos tienen acceso a ellas. Mantener enganchados a tus clientes es más fácil que nunca con planes de puntos, referidos, cumpleaños y mucho más. Digitaliza tu negocio muy fácil desde la app: publica tu catálogo de productos o servicios, habilita ventas fiadas o reservas de citas… y lo mejor de todo: ¡es gratuita! Queremos enseñarte cómo hacer crecer tus ventas logrando que tus clientes te recomienden y vuelvan a comprar. Junto a Zencillo, expertos en software empresarial, te mostraremos Zencillo POS Mobile: una experiencia móvil para vender, cobrar, facturar y mantener tu operación conectada. Prepárate para llevar tu negocio al siguiente nivel con NED y Zencillo.",
+  "voz": "es-CO-SalomeNeural",
+  "palabras": [
+    {
+      "palabra": "Las",
+      "inicioSeg": 0.097,
+      "finSeg": 0.345
+    },
+    {
+      "palabra": "dinámicas",
+      "inicioSeg": 0.404,
+      "finSeg": 0.911
+    },
+    {
+      "palabra": "comerciales",
+      "inicioSeg": 0.958,
+      "finSeg": 1.5
+    },
+    {
+      "palabra": "profesionales",
+      "inicioSeg": 1.548,
+      "finSeg": 2.255
+    },
+    {
+      "palabra": "ya",
+      "inicioSeg": 2.291,
+      "finSeg": 2.385
+    },
+    {
+      "palabra": "no",
+      "inicioSeg": 2.432,
+      "finSeg": 2.526
+    },
+    {
+      "palabra": "son",
+      "inicioSeg": 2.55,
+      "finSeg": 2.727
+    },
+    {
+      "palabra": "solo",
+      "inicioSeg": 2.798,
+      "finSeg": 3.01
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 3.045,
+      "finSeg": 3.069
+    },
+    {
+      "palabra": "las",
+      "inicioSeg": 3.092,
+      "finSeg": 3.246
+    },
+    {
+      "palabra": "grandes",
+      "inicioSeg": 3.281,
+      "finSeg": 3.635
+    },
+    {
+      "palabra": "marcas",
+      "inicioSeg": 3.67,
+      "finSeg": 4.201
+    },
+    {
+      "palabra": "Con",
+      "inicioSeg": 5.035,
+      "finSeg": 5.189
+    },
+    {
+      "palabra": "NED,",
+      "inicioSeg": 5.189,
+      "finSeg": 5.377
+    },
+    {
+      "palabra": "todos",
+      "inicioSeg": 5.425,
+      "finSeg": 5.66
+    },
+    {
+      "palabra": "tienen",
+      "inicioSeg": 5.696,
+      "finSeg": 5.967
+    },
+    {
+      "palabra": "acceso",
+      "inicioSeg": 5.967,
+      "finSeg": 6.356
+    },
+    {
+      "palabra": "a",
+      "inicioSeg": 6.356,
+      "finSeg": 6.403
+    },
+    {
+      "palabra": "ellas",
+      "inicioSeg": 6.474,
+      "finSeg": 6.863
+    },
+    {
+      "palabra": "Mantener",
+      "inicioSeg": 7.724,
+      "finSeg": 8.231
+    },
+    {
+      "palabra": "enganchados",
+      "inicioSeg": 8.231,
+      "finSeg": 8.856
+    },
+    {
+      "palabra": "a",
+      "inicioSeg": 8.856,
+      "finSeg": 8.903
+    },
+    {
+      "palabra": "tus",
+      "inicioSeg": 8.974,
+      "finSeg": 9.116
+    },
+    {
+      "palabra": "clientes",
+      "inicioSeg": 9.163,
+      "finSeg": 9.599
+    },
+    {
+      "palabra": "es",
+      "inicioSeg": 9.623,
+      "finSeg": 9.729
+    },
+    {
+      "palabra": "más",
+      "inicioSeg": 9.764,
+      "finSeg": 9.953
+    },
+    {
+      "palabra": "fácil",
+      "inicioSeg": 9.965,
+      "finSeg": 10.259
+    },
+    {
+      "palabra": "que",
+      "inicioSeg": 10.318,
+      "finSeg": 10.389
+    },
+    {
+      "palabra": "nunca,",
+      "inicioSeg": 10.413,
+      "finSeg": 10.672
+    },
+    {
+      "palabra": "con",
+      "inicioSeg": 10.743,
+      "finSeg": 10.908
+    },
+    {
+      "palabra": "planes",
+      "inicioSeg": 10.932,
+      "finSeg": 11.203
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 11.238,
+      "finSeg": 11.309
+    },
+    {
+      "palabra": "puntos",
+      "inicioSeg": 11.392,
+      "finSeg": 11.899
+    },
+    {
+      "palabra": "referidos,",
+      "inicioSeg": 12.217,
+      "finSeg": 12.877
+    },
+    {
+      "palabra": "cumpleaños",
+      "inicioSeg": 13.208,
+      "finSeg": 13.797
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 13.821,
+      "finSeg": 13.856
+    },
+    {
+      "palabra": "mucho",
+      "inicioSeg": 13.88,
+      "finSeg": 14.139
+    },
+    {
+      "palabra": "más.",
+      "inicioSeg": 14.175,
+      "finSeg": 14.505
+    },
+    {
+      "palabra": "Digitaliza",
+      "inicioSeg": 15.354,
+      "finSeg": 16.073
+    },
+    {
+      "palabra": "tu",
+      "inicioSeg": 16.156,
+      "finSeg": 16.226
+    },
+    {
+      "palabra": "negocio",
+      "inicioSeg": 16.25,
+      "finSeg": 16.639
+    },
+    {
+      "palabra": "muy",
+      "inicioSeg": 16.663,
+      "finSeg": 16.804
+    },
+    {
+      "palabra": "fácil",
+      "inicioSeg": 16.84,
+      "finSeg": 17.193
+    },
+    {
+      "palabra": "desde",
+      "inicioSeg": 17.241,
+      "finSeg": 17.476
+    },
+    {
+      "palabra": "la",
+      "inicioSeg": 17.512,
+      "finSeg": 17.606
+    },
+    {
+      "palabra": "app,",
+      "inicioSeg": 17.642,
+      "finSeg": 17.866
+    },
+    {
+      "palabra": "publica",
+      "inicioSeg": 18.16,
+      "finSeg": 18.526
+    },
+    {
+      "palabra": "tu",
+      "inicioSeg": 18.597,
+      "finSeg": 18.667
+    },
+    {
+      "palabra": "catálogo",
+      "inicioSeg": 18.715,
+      "finSeg": 19.21
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 19.245,
+      "finSeg": 19.281
+    },
+    {
+      "palabra": "productos",
+      "inicioSeg": 19.34,
+      "finSeg": 19.87
+    },
+    {
+      "palabra": "o",
+      "inicioSeg": 19.87,
+      "finSeg": 19.917
+    },
+    {
+      "palabra": "servicios",
+      "inicioSeg": 19.953,
+      "finSeg": 20.672
+    },
+    {
+      "palabra": "habilita",
+      "inicioSeg": 20.955,
+      "finSeg": 21.368
+    },
+    {
+      "palabra": "ventas",
+      "inicioSeg": 21.392,
+      "finSeg": 21.745
+    },
+    {
+      "palabra": "fiadas",
+      "inicioSeg": 21.769,
+      "finSeg": 22.17
+    },
+    {
+      "palabra": "o",
+      "inicioSeg": 22.182,
+      "finSeg": 22.252
+    },
+    {
+      "palabra": "reservas",
+      "inicioSeg": 22.276,
+      "finSeg": 22.771
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 22.818,
+      "finSeg": 22.889
+    },
+    {
+      "palabra": "citas",
+      "inicioSeg": 22.925,
+      "finSeg": 23.491
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 23.644,
+      "finSeg": 23.715
+    },
+    {
+      "palabra": "lo",
+      "inicioSeg": 23.75,
+      "finSeg": 23.844
+    },
+    {
+      "palabra": "mejor",
+      "inicioSeg": 23.868,
+      "finSeg": 24.151
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 24.21,
+      "finSeg": 24.281
+    },
+    {
+      "palabra": "todo",
+      "inicioSeg": 24.363,
+      "finSeg": 24.599
+    },
+    {
+      "palabra": "es",
+      "inicioSeg": 24.847,
+      "finSeg": 24.976
+    },
+    {
+      "palabra": "gratuita",
+      "inicioSeg": 25.012,
+      "finSeg": 25.542
+    },
+    {
+      "palabra": "Queremos",
+      "inicioSeg": 26.45,
+      "finSeg": 26.899
+    },
+    {
+      "palabra": "enseñarte",
+      "inicioSeg": 26.899,
+      "finSeg": 27.441
+    },
+    {
+      "palabra": "cómo",
+      "inicioSeg": 27.488,
+      "finSeg": 27.653
+    },
+    {
+      "palabra": "hacer",
+      "inicioSeg": 27.653,
+      "finSeg": 27.877
+    },
+    {
+      "palabra": "crecer",
+      "inicioSeg": 27.948,
+      "finSeg": 28.219
+    },
+    {
+      "palabra": "tus",
+      "inicioSeg": 28.302,
+      "finSeg": 28.432
+    },
+    {
+      "palabra": "ventas",
+      "inicioSeg": 28.479,
+      "finSeg": 28.844
+    },
+    {
+      "palabra": "logrando",
+      "inicioSeg": 28.868,
+      "finSeg": 29.245
+    },
+    {
+      "palabra": "que",
+      "inicioSeg": 29.281,
+      "finSeg": 29.351
+    },
+    {
+      "palabra": "tus",
+      "inicioSeg": 29.41,
+      "finSeg": 29.552
+    },
+    {
+      "palabra": "clientes",
+      "inicioSeg": 29.599,
+      "finSeg": 30.0
+    },
+    {
+      "palabra": "te",
+      "inicioSeg": 30.035,
+      "finSeg": 30.094
+    },
+    {
+      "palabra": "recomienden",
+      "inicioSeg": 30.13,
+      "finSeg": 30.708
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 30.755,
+      "finSeg": 30.814
+    },
+    {
+      "palabra": "vuelvan",
+      "inicioSeg": 30.849,
+      "finSeg": 31.156
+    },
+    {
+      "palabra": "a",
+      "inicioSeg": 31.179,
+      "finSeg": 31.226
+    },
+    {
+      "palabra": "comprar",
+      "inicioSeg": 31.297,
+      "finSeg": 31.686
+    },
+    {
+      "palabra": "Junto",
+      "inicioSeg": 32.559,
+      "finSeg": 32.925
+    },
+    {
+      "palabra": "a",
+      "inicioSeg": 32.925,
+      "finSeg": 32.96
+    },
+    {
+      "palabra": "Zencillo",
+      "inicioSeg": 32.983,
+      "finSeg": 33.538
+    },
+    {
+      "palabra": "expertos",
+      "inicioSeg": 33.856,
+      "finSeg": 34.41
+    },
+    {
+      "palabra": "en",
+      "inicioSeg": 34.422,
+      "finSeg": 34.516
+    },
+    {
+      "palabra": "software",
+      "inicioSeg": 34.564,
+      "finSeg": 34.894
+    },
+    {
+      "palabra": "empresarial",
+      "inicioSeg": 34.894,
+      "finSeg": 35.649
+    },
+    {
+      "palabra": "te",
+      "inicioSeg": 36.002,
+      "finSeg": 36.073
+    },
+    {
+      "palabra": "mostraremos",
+      "inicioSeg": 36.108,
+      "finSeg": 36.686
+    },
+    {
+      "palabra": "Zencillo",
+      "inicioSeg": 36.686,
+      "finSeg": 37.123
+    },
+    {
+      "palabra": "POS",
+      "inicioSeg": 37.193,
+      "finSeg": 37.335
+    },
+    {
+      "palabra": "Mobile",
+      "inicioSeg": 37.382,
+      "finSeg": 37.807
+    },
+    {
+      "palabra": "una",
+      "inicioSeg": 38.16,
+      "finSeg": 38.302
+    },
+    {
+      "palabra": "experiencia",
+      "inicioSeg": 38.302,
+      "finSeg": 38.892
+    },
+    {
+      "palabra": "móvil",
+      "inicioSeg": 38.927,
+      "finSeg": 39.269
+    },
+    {
+      "palabra": "para",
+      "inicioSeg": 39.328,
+      "finSeg": 39.516
+    },
+    {
+      "palabra": "vender",
+      "inicioSeg": 39.54,
+      "finSeg": 39.976
+    },
+    {
+      "palabra": "cobrar",
+      "inicioSeg": 40.189,
+      "finSeg": 40.613
+    },
+    {
+      "palabra": "facturar",
+      "inicioSeg": 40.802,
+      "finSeg": 41.356
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 41.368,
+      "finSeg": 41.415
+    },
+    {
+      "palabra": "mantener",
+      "inicioSeg": 41.439,
+      "finSeg": 41.887
+    },
+    {
+      "palabra": "tu",
+      "inicioSeg": 41.969,
+      "finSeg": 42.016
+    },
+    {
+      "palabra": "operación",
+      "inicioSeg": 42.017,
+      "finSeg": 42.571
+    },
+    {
+      "palabra": "conectada",
+      "inicioSeg": 42.583,
+      "finSeg": 43.149
+    },
+    {
+      "palabra": "Prepárate",
+      "inicioSeg": 44.009,
+      "finSeg": 44.552
+    },
+    {
+      "palabra": "para",
+      "inicioSeg": 44.623,
+      "finSeg": 44.788
+    },
+    {
+      "palabra": "llevar",
+      "inicioSeg": 44.847,
+      "finSeg": 45.083
+    },
+    {
+      "palabra": "tu",
+      "inicioSeg": 45.165,
+      "finSeg": 45.236
+    },
+    {
+      "palabra": "negocio",
+      "inicioSeg": 45.259,
+      "finSeg": 45.649
+    },
+    {
+      "palabra": "al",
+      "inicioSeg": 45.649,
+      "finSeg": 45.743
+    },
+    {
+      "palabra": "siguiente",
+      "inicioSeg": 45.767,
+      "finSeg": 46.215
+    },
+    {
+      "palabra": "nivel",
+      "inicioSeg": 46.238,
+      "finSeg": 46.486
+    },
+    {
+      "palabra": "con",
+      "inicioSeg": 46.545,
+      "finSeg": 46.686
+    },
+    {
+      "palabra": "NED",
+      "inicioSeg": 46.686,
+      "finSeg": 46.828
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 46.863,
+      "finSeg": 46.887
+    },
+    {
+      "palabra": "Zencillo",
+      "inicioSeg": 46.91,
+      "finSeg": 47.429
+    }
+  ]
+}

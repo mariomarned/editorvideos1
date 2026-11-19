@@ -10,10 +10,10 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { MARCA } from "../../marca";
-import { Efecto } from "../../componentes/Efecto";
-import { SegmentoSubtitulo, Subtitulos } from "../../componentes/Subtitulos";
-import subtitulosData from "../../../public/subtitulos/ned-zencillo.json";
+import { MARCA_NED as MARCA } from "../../../marcas/ned";
+import { Efecto } from "../../../componentes/Efecto";
+import { SegmentoSubtitulo, Subtitulos } from "../../../componentes/Subtitulos";
+import subtitulosData from "../../../../public/ned/subtitulos/ned-zencillo.json";
 
 const SEGMENTOS = subtitulosData as SegmentoSubtitulo[];
 
@@ -104,30 +104,39 @@ const DecoracionUrbanaMemphis: React.FC = () => {
         />
       </svg>
 
-      {/* Banda curva Magenta inferior fiel a la muestra NED */}
+      {/* Banda curva Magenta inferior fiel a la muestra NED con footerNED.png */}
       <svg
         width="1080"
-        height="340"
-        viewBox="0 0 1080 340"
+        height="320"
+        viewBox="0 0 1080 320"
         style={{ position: "absolute", bottom: 0, left: 0 }}
       >
         <path
-          d="M0,75 Q540,-20 1080,65 L1080,340 L0,340 Z"
+          d="M0,70 Q540,-18 1080,60 L1080,320 L0,320 Z"
           fill={MARCA.colores.primario}
         />
-        <text
-          x="540"
-          y="296"
-          textAnchor="middle"
-          fill={MARCA.colores.texto}
-          fontFamily={MARCA.tipografia.principal}
-          fontSize="60"
-          fontWeight="800"
-          letterSpacing="2"
-        >
-          {MARCA.sitioWeb}
-        </text>
       </svg>
+      <div
+        style={{
+          position: "absolute",
+          bottom: 14,
+          left: 0,
+          right: 0,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "0 28px",
+        }}
+      >
+        <Img
+          src={staticFile("ned/material/footerNED.png")}
+          style={{
+            width: "100%",
+            maxHeight: 235,
+            objectFit: "contain",
+          }}
+        />
+      </div>
     </AbsoluteFill>
   );
 };
@@ -364,7 +373,7 @@ const Escena1Gancho: React.FC = () => {
         }}
       >
         <Img
-          src={staticFile("logos/logoned5.png")}
+          src={staticFile("ned/logos/logoned5.png")}
           style={{
             width: 390,
             height: 390,
@@ -468,7 +477,7 @@ const Escena2Lealtad: React.FC = () => {
         }}
       >
         <Img
-          src={staticFile("material/manocelned.png")}
+          src={staticFile("ned/material/manocelned.png")}
           style={{
             height: 980,
             maxWidth: "100%",
@@ -487,7 +496,7 @@ const Escena3Digitaliza: React.FC = () => {
 
   const logoIn = spring({ frame, fps, config: { damping: 14, stiffness: 160 } });
   const selloGratis = spring({
-    frame: Math.max(0, frame - 235),
+    frame: Math.max(0, frame - 305),
     fps,
     config: { damping: 10, stiffness: 200 },
   });
@@ -512,7 +521,7 @@ const Escena3Digitaliza: React.FC = () => {
         }}
       >
         <Img
-          src={staticFile("logos/LogoNEDico.png")}
+          src={staticFile("ned/logos/LogoNEDico.png")}
           style={{
             width: 240,
             height: 240,
@@ -630,7 +639,7 @@ const Escena4Zencillo: React.FC = () => {
         }}
       >
         <Img
-          src={staticFile("logos/Logotipo_Zencillo.png")}
+          src={staticFile("ned/logos/Logotipo_Zencillo.png")}
           style={{
             width: 390,
             height: 340,
@@ -769,12 +778,12 @@ const Escena5Cierre: React.FC = () => {
           }}
         >
           <Img
-            src={staticFile("logos/logoned5.png")}
+            src={staticFile("ned/logos/Logotipo_Zencillo.png")}
             style={{
-              width: 310,
-              height: 310,
+              width: 460,
+              height: 360,
               objectFit: "contain",
-              transform: "scale(1.12)",
+              transform: "scale(1.24)",
             }}
           />
           <div
@@ -789,12 +798,12 @@ const Escena5Cierre: React.FC = () => {
             ×
           </div>
           <Img
-            src={staticFile("logos/Logotipo_Zencillo.png")}
+            src={staticFile("ned/logos/logoned5.png")}
             style={{
-              width: 460,
-              height: 360,
+              width: 310,
+              height: 310,
               objectFit: "contain",
-              transform: "scale(1.24)",
+              transform: "scale(1.12)",
             }}
           />
         </div>
@@ -816,42 +825,55 @@ export const NedZencilloReel: React.FC = () => {
       <DecoracionUrbanaMemphis />
 
       {/* Pista principal de narración */}
-      <Audio src={staticFile("audio/ned-zencillo-voz.mp3")} volume={1} />
+      <Audio src={staticFile("ned/audio/ned-zencillo-voz.mp3")} volume={1} />
+
+      {/* Música de fondo instrumental desde la segunda escena con fade-in y fade-out */}
+      <Sequence from={148} durationInFrames={1387}>
+        <Audio
+          src={staticFile("ned/audio/musicafondo/Follow Me - The Soundlings.mp3")}
+          volume={(f) =>
+            interpolate(f, [0, 35, 1337, 1387], [0, 0.11, 0.11, 0], {
+              extrapolateLeft: "clamp",
+              extrapolateRight: "clamp",
+            })
+          }
+        />
+      </Sequence>
 
       {/* Efectos de sonido CC0 en transiciones clave */}
       <Sequence from={0} durationInFrames={35}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.55} destello />
       </Sequence>
-      <Sequence from={130} durationInFrames={25}>
+      <Sequence from={148} durationInFrames={25}>
         <Efecto audioSrc="audio/cc0/blip-plock-pop.mp3" volumen={0.45} />
       </Sequence>
-      <Sequence from={410} durationInFrames={25}>
+      <Sequence from={473} durationInFrames={25}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.4} />
       </Sequence>
-      <Sequence from={655} durationInFrames={25}>
+      <Sequence from={778} durationInFrames={25}>
         <Efecto audioSrc="audio/cc0/blip-plock-pop.mp3" volumen={0.55} />
       </Sequence>
-      <Sequence from={695} durationInFrames={30}>
+      <Sequence from={799} durationInFrames={30}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.45} />
       </Sequence>
-      <Sequence from={1155} durationInFrames={30}>
+      <Sequence from={1357} durationInFrames={30}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.45} destello />
       </Sequence>
 
       {/* Escenas sincronizadas con la voz */}
-      <Sequence from={0} durationInFrames={130}>
+      <Sequence from={0} durationInFrames={148}>
         <Escena1Gancho />
       </Sequence>
-      <Sequence from={130} durationInFrames={280}>
+      <Sequence from={148} durationInFrames={325}>
         <Escena2Lealtad />
       </Sequence>
-      <Sequence from={410} durationInFrames={285}>
+      <Sequence from={473} durationInFrames={326}>
         <Escena3Digitaliza />
       </Sequence>
-      <Sequence from={695} durationInFrames={460}>
+      <Sequence from={799} durationInFrames={558}>
         <Escena4Zencillo />
       </Sequence>
-      <Sequence from={1155} durationInFrames={165}>
+      <Sequence from={1357} durationInFrames={178}>
         <Escena5Cierre />
       </Sequence>
 

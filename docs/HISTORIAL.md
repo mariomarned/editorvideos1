@@ -9,3 +9,5 @@
 - Instalación de 13 skills oficiales de Remotion (`remotion-dev/skills`) en `.agents/skills/`.
 - Auditoría e instalación de **Lemo-Opuscar** en `~/lemo-opuscar` (commit `00a7f9ec99c8686265a8ca4ed9a3fdaaf27ea6f4`) y skill copiada en `.agent/skills/lemo-opuscar/`.
 - Creación de entorno Python `.venv` con `faster-whisper` y herramientas en `herramientas/`.
+- Primer Reel de **NED × Zencillo** (`out/ned/ned-zencillo-reel.mp4`) con voz de ElevenLabs, música de fondo y subtítulos sincronizados.
+- Reorganización a estructura multi-proyecto: `src/marcas/<proyecto>.ts`, `src/videos/<proyecto>/`, `public/<proyecto>/`, `guiones/<proyecto>/`, `out/<proyecto>/` y carpetas `<Folder>` en `src/Root.tsx`.

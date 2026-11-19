@@ -2,8 +2,33 @@
 
 import argparse
 import json
+import subprocess
 from pathlib import Path
+import numpy as np
 from faster_whisper import WhisperModel
+
+
+def decodificar_audio_16k(entrada: str) -> np.ndarray:
+    """Decodifica audio/video a PCM float32 mono 16 kHz usando FFmpeg."""
+    cmd = [
+        "ffmpeg",
+        "-nostdin",
+        "-threads",
+        "0",
+        "-i",
+        entrada,
+        "-f",
+        "s16le",
+        "-ac",
+        "1",
+        "-acodec",
+        "pcm_s16le",
+        "-ar",
+        "16000",
+        "-",
+    ]
+    res = subprocess.run(cmd, capture_output=True, check=True)
+    return np.frombuffer(res.stdout, np.int16).astype(np.float32) / 32768.0
 
 
 def transcribir(
@@ -12,9 +37,10 @@ def transcribir(
     modelo: str = "base",
     idioma: str = "es",
 ) -> Path:
+    audio = decodificar_audio_16k(entrada)
     model = WhisperModel(modelo, device="cpu", compute_type="int8")
     segments, info = model.transcribe(
-        entrada,
+        audio,
         language=idioma if idioma != "auto" else None,
         word_timestamps=True,
     )
