@@ -11,3 +11,10 @@
 - Creación de entorno Python `.venv` con `faster-whisper` y herramientas en `herramientas/`.
 - Primer Reel de **NED × Zencillo** (`out/ned/ned-zencillo-reel.mp4`) con voz de ElevenLabs, música de fondo y subtítulos sincronizados.
 - Reorganización a estructura multi-proyecto: `src/marcas/<proyecto>.ts`, `src/videos/<proyecto>/`, `public/<proyecto>/`, `guiones/<proyecto>/`, `out/<proyecto>/` y carpetas `<Folder>` en `src/Root.tsx`.
+
+## 2026-11-23
+- Creación del nuevo proyecto **NPS** dentro de **NED**:
+  - Extracción de la base de diseño urbana de NED (`DecoracionUrbanaMemphis`, `PildoraNed`, `OvaloDestacado`, `TarjetaSticker`, `MarcoSticker` y `FONDO_RADIAL_NED`) en `src/videos/ned/componentes/DisenoNed.tsx`.
+  - Composición `NedNpsReel` (`1080×1920`, 30 fps, 1170 frames / 39 s) en `src/videos/ned/02-nps/NpsReel.tsx`, registrada en `src/Root.tsx` bajo `<Folder name="NED">` con la misma línea visual de `NedZencilloReel`.
+  - Integración de las capturas `imagen 1.png`, `imagen 2.png` e `imagen 3.png` de `public/ned/material/nps/`, narración sincronizada en `public/ned/audio/nps/nps-voz.mp3`, subtítulos por palabra en `public/ned/subtitulos/nps/nps.json` y música de fondo `Follow Me - The Soundlings.mp3`.
+  - Libreto completo y textos de publicación en `guiones/ned/02-nps.md`.

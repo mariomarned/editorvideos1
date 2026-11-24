@@ -5,6 +5,7 @@ import { Escena3DEjemplo } from "./composiciones/Escena3DEjemplo";
 import { ShortEjemplo } from "./composiciones/ShortEjemplo";
 import { VideoEjemplo } from "./composiciones/VideoEjemplo";
 import { NedZencilloReel } from "./videos/ned/01-ned-zencillo/NedZencilloReel";
+import { NpsReel } from "./videos/ned/02-nps/NpsReel";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -17,6 +18,18 @@ export const RemotionRoot: React.FC = () => {
           fps={MARCA_NED.video.fps}
           width={MARCA_NED.video.vertical.width}
           height={MARCA_NED.video.vertical.height}
+        />
+        <Composition
+          id="NedNpsReel"
+          component={NpsReel}
+          durationInFrames={1170}
+          fps={MARCA_NED.video.fps}
+          width={MARCA_NED.video.vertical.width}
+          height={MARCA_NED.video.vertical.height}
+          defaultProps={{
+            tituloGancho: "NED ahora tiene",
+            llamadoAccion: "NED ES GRATUITA",
+          }}
         />
       </Folder>
 

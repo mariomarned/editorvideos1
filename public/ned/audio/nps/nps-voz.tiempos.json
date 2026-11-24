@@ -1,0 +1,486 @@
+{
+  "texto": "NED ahora tiene una nueva función. Lanzamos NPS, el indicador por excelencia de Lealtad. Ahora cuando registras una compra, tu cliente recibe una notificación con la pregunta sobre si te recomendaría, te puede compartir más información. NED se cuida de no ser invasivo, espera 60 días para volver a hacer la pregunta. También puedes contactar directamente a esos clientes que tuvieron una mala experiencia, las estadísticas dicen que al hacerlo, tienes más probabilidades de recuperarlo. Puedes desactivar la opción desde el perfil de tu negocio. Recuerda: NED es gratuita, queremos que disfrutes el poder de la Lealtad.",
+  "voz": "es-CO-GonzaloNeural",
+  "palabras": [
+    {
+      "palabra": "NED",
+      "inicioSeg": 0.1,
+      "finSeg": 0.338
+    },
+    {
+      "palabra": "ahora",
+      "inicioSeg": 0.338,
+      "finSeg": 0.512
+    },
+    {
+      "palabra": "tiene",
+      "inicioSeg": 0.575,
+      "finSeg": 0.712
+    },
+    {
+      "palabra": "una",
+      "inicioSeg": 0.713,
+      "finSeg": 0.863
+    },
+    {
+      "palabra": "nueva",
+      "inicioSeg": 0.887,
+      "finSeg": 1.1
+    },
+    {
+      "palabra": "función",
+      "inicioSeg": 1.125,
+      "finSeg": 1.613
+    },
+    {
+      "palabra": "Lanzamos",
+      "inicioSeg": 2.525,
+      "finSeg": 3.075
+    },
+    {
+      "palabra": "NPS",
+      "inicioSeg": 3.075,
+      "finSeg": 3.675
+    },
+    {
+      "palabra": "el",
+      "inicioSeg": 3.938,
+      "finSeg": 4.05
+    },
+    {
+      "palabra": "indicador",
+      "inicioSeg": 4.062,
+      "finSeg": 4.525
+    },
+    {
+      "palabra": "por",
+      "inicioSeg": 4.6,
+      "finSeg": 4.7
+    },
+    {
+      "palabra": "excelencia",
+      "inicioSeg": 4.7,
+      "finSeg": 5.213
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 5.237,
+      "finSeg": 5.263
+    },
+    {
+      "palabra": "Lealtad",
+      "inicioSeg": 5.287,
+      "finSeg": 5.775
+    },
+    {
+      "palabra": "Ahora",
+      "inicioSeg": 6.675,
+      "finSeg": 6.95
+    },
+    {
+      "palabra": "cuando",
+      "inicioSeg": 7.0,
+      "finSeg": 7.188
+    },
+    {
+      "palabra": "registras",
+      "inicioSeg": 7.225,
+      "finSeg": 7.75
+    },
+    {
+      "palabra": "una",
+      "inicioSeg": 7.775,
+      "finSeg": 7.913
+    },
+    {
+      "palabra": "compra",
+      "inicioSeg": 7.975,
+      "finSeg": 8.325
+    },
+    {
+      "palabra": "tu",
+      "inicioSeg": 8.625,
+      "finSeg": 8.688
+    },
+    {
+      "palabra": "cliente",
+      "inicioSeg": 8.75,
+      "finSeg": 9.062
+    },
+    {
+      "palabra": "recibe",
+      "inicioSeg": 9.1,
+      "finSeg": 9.4
+    },
+    {
+      "palabra": "una",
+      "inicioSeg": 9.45,
+      "finSeg": 9.587
+    },
+    {
+      "palabra": "notificación",
+      "inicioSeg": 9.613,
+      "finSeg": 10.263
+    },
+    {
+      "palabra": "con",
+      "inicioSeg": 10.325,
+      "finSeg": 10.412
+    },
+    {
+      "palabra": "la",
+      "inicioSeg": 10.438,
+      "finSeg": 10.5
+    },
+    {
+      "palabra": "pregunta",
+      "inicioSeg": 10.562,
+      "finSeg": 10.912
+    },
+    {
+      "palabra": "sobre",
+      "inicioSeg": 10.938,
+      "finSeg": 11.162
+    },
+    {
+      "palabra": "si",
+      "inicioSeg": 11.175,
+      "finSeg": 11.3
+    },
+    {
+      "palabra": "te",
+      "inicioSeg": 11.35,
+      "finSeg": 11.412
+    },
+    {
+      "palabra": "recomendaría",
+      "inicioSeg": 11.463,
+      "finSeg": 12.175
+    },
+    {
+      "palabra": "te",
+      "inicioSeg": 12.488,
+      "finSeg": 12.55
+    },
+    {
+      "palabra": "puede",
+      "inicioSeg": 12.625,
+      "finSeg": 12.775
+    },
+    {
+      "palabra": "compartir",
+      "inicioSeg": 12.825,
+      "finSeg": 13.25
+    },
+    {
+      "palabra": "más",
+      "inicioSeg": 13.275,
+      "finSeg": 13.412
+    },
+    {
+      "palabra": "información",
+      "inicioSeg": 13.438,
+      "finSeg": 14.113
+    },
+    {
+      "palabra": "NED",
+      "inicioSeg": 15.012,
+      "finSeg": 15.237
+    },
+    {
+      "palabra": "se",
+      "inicioSeg": 15.238,
+      "finSeg": 15.35
+    },
+    {
+      "palabra": "cuida",
+      "inicioSeg": 15.412,
+      "finSeg": 15.625
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 15.65,
+      "finSeg": 15.662
+    },
+    {
+      "palabra": "no",
+      "inicioSeg": 15.688,
+      "finSeg": 15.762
+    },
+    {
+      "palabra": "ser",
+      "inicioSeg": 15.787,
+      "finSeg": 15.938
+    },
+    {
+      "palabra": "invasivo",
+      "inicioSeg": 15.938,
+      "finSeg": 16.512
+    },
+    {
+      "palabra": "espera",
+      "inicioSeg": 16.762,
+      "finSeg": 17.1
+    },
+    {
+      "palabra": "60 días",
+      "inicioSeg": 17.113,
+      "finSeg": 17.8
+    },
+    {
+      "palabra": "para",
+      "inicioSeg": 17.863,
+      "finSeg": 18.012
+    },
+    {
+      "palabra": "volver",
+      "inicioSeg": 18.062,
+      "finSeg": 18.337
+    },
+    {
+      "palabra": "a",
+      "inicioSeg": 18.337,
+      "finSeg": 18.375
+    },
+    {
+      "palabra": "hacer",
+      "inicioSeg": 18.375,
+      "finSeg": 18.6
+    },
+    {
+      "palabra": "la",
+      "inicioSeg": 18.625,
+      "finSeg": 18.688
+    },
+    {
+      "palabra": "pregunta",
+      "inicioSeg": 18.75,
+      "finSeg": 19.175
+    },
+    {
+      "palabra": "También",
+      "inicioSeg": 20.087,
+      "finSeg": 20.35
+    },
+    {
+      "palabra": "puedes",
+      "inicioSeg": 20.413,
+      "finSeg": 20.613
+    },
+    {
+      "palabra": "contactar",
+      "inicioSeg": 20.65,
+      "finSeg": 21.1
+    },
+    {
+      "palabra": "directamente",
+      "inicioSeg": 21.15,
+      "finSeg": 21.762
+    },
+    {
+      "palabra": "a",
+      "inicioSeg": 21.762,
+      "finSeg": 21.787
+    },
+    {
+      "palabra": "esos",
+      "inicioSeg": 21.85,
+      "finSeg": 22.05
+    },
+    {
+      "palabra": "clientes",
+      "inicioSeg": 22.1,
+      "finSeg": 22.463
+    },
+    {
+      "palabra": "que",
+      "inicioSeg": 22.5,
+      "finSeg": 22.575
+    },
+    {
+      "palabra": "tuvieron",
+      "inicioSeg": 22.625,
+      "finSeg": 22.9
+    },
+    {
+      "palabra": "una",
+      "inicioSeg": 22.9,
+      "finSeg": 23.025
+    },
+    {
+      "palabra": "mala",
+      "inicioSeg": 23.05,
+      "finSeg": 23.25
+    },
+    {
+      "palabra": "experiencia",
+      "inicioSeg": 23.262,
+      "finSeg": 23.988
+    },
+    {
+      "palabra": "las",
+      "inicioSeg": 24.3,
+      "finSeg": 24.463
+    },
+    {
+      "palabra": "estadísticas",
+      "inicioSeg": 24.462,
+      "finSeg": 25.075
+    },
+    {
+      "palabra": "dicen",
+      "inicioSeg": 25.113,
+      "finSeg": 25.375
+    },
+    {
+      "palabra": "que",
+      "inicioSeg": 25.375,
+      "finSeg": 25.425
+    },
+    {
+      "palabra": "al",
+      "inicioSeg": 25.425,
+      "finSeg": 25.525
+    },
+    {
+      "palabra": "hacerlo",
+      "inicioSeg": 25.525,
+      "finSeg": 25.95
+    },
+    {
+      "palabra": "tienes",
+      "inicioSeg": 26.288,
+      "finSeg": 26.513
+    },
+    {
+      "palabra": "más",
+      "inicioSeg": 26.562,
+      "finSeg": 26.712
+    },
+    {
+      "palabra": "probabilidades",
+      "inicioSeg": 26.775,
+      "finSeg": 27.35
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 27.387,
+      "finSeg": 27.45
+    },
+    {
+      "palabra": "recuperarlo",
+      "inicioSeg": 27.488,
+      "finSeg": 28.113
+    },
+    {
+      "palabra": "Puedes",
+      "inicioSeg": 29.012,
+      "finSeg": 29.262
+    },
+    {
+      "palabra": "desactivar",
+      "inicioSeg": 29.275,
+      "finSeg": 29.8
+    },
+    {
+      "palabra": "la",
+      "inicioSeg": 29.825,
+      "finSeg": 29.887
+    },
+    {
+      "palabra": "opción",
+      "inicioSeg": 29.887,
+      "finSeg": 30.15
+    },
+    {
+      "palabra": "desde",
+      "inicioSeg": 30.188,
+      "finSeg": 30.375
+    },
+    {
+      "palabra": "el",
+      "inicioSeg": 30.375,
+      "finSeg": 30.425
+    },
+    {
+      "palabra": "perfil",
+      "inicioSeg": 30.488,
+      "finSeg": 30.775
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 30.825,
+      "finSeg": 30.875
+    },
+    {
+      "palabra": "tu",
+      "inicioSeg": 30.925,
+      "finSeg": 31.0
+    },
+    {
+      "palabra": "negocio",
+      "inicioSeg": 31.038,
+      "finSeg": 31.55
+    },
+    {
+      "palabra": "Recuerda",
+      "inicioSeg": 32.462,
+      "finSeg": 33.087
+    },
+    {
+      "palabra": "NED",
+      "inicioSeg": 33.362,
+      "finSeg": 33.525
+    },
+    {
+      "palabra": "es",
+      "inicioSeg": 33.525,
+      "finSeg": 33.637
+    },
+    {
+      "palabra": "gratuita",
+      "inicioSeg": 33.675,
+      "finSeg": 34.225
+    },
+    {
+      "palabra": "queremos",
+      "inicioSeg": 34.525,
+      "finSeg": 34.85
+    },
+    {
+      "palabra": "que",
+      "inicioSeg": 34.888,
+      "finSeg": 34.95
+    },
+    {
+      "palabra": "disfrutes",
+      "inicioSeg": 34.987,
+      "finSeg": 35.438
+    },
+    {
+      "palabra": "el",
+      "inicioSeg": 35.438,
+      "finSeg": 35.513
+    },
+    {
+      "palabra": "poder",
+      "inicioSeg": 35.587,
+      "finSeg": 35.8
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 35.837,
+      "finSeg": 35.9
+    },
+    {
+      "palabra": "la",
+      "inicioSeg": 35.938,
+      "finSeg": 36.013
+    },
+    {
+      "palabra": "Lealtad",
+      "inicioSeg": 36.038,
+      "finSeg": 36.45
+    }
+  ]
+}

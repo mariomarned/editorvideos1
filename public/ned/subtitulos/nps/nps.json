@@ -1,0 +1,636 @@
+[
+  {
+    "texto": "NED ahora tiene una nueva",
+    "inicioFrame": 3,
+    "finFrame": 33,
+    "palabras": [
+      {
+        "palabra": "NED",
+        "inicioFrame": 3,
+        "finFrame": 10
+      },
+      {
+        "palabra": "ahora",
+        "inicioFrame": 10,
+        "finFrame": 15
+      },
+      {
+        "palabra": "tiene",
+        "inicioFrame": 17,
+        "finFrame": 21
+      },
+      {
+        "palabra": "una",
+        "inicioFrame": 21,
+        "finFrame": 26
+      },
+      {
+        "palabra": "nueva",
+        "inicioFrame": 27,
+        "finFrame": 33
+      }
+    ]
+  },
+  {
+    "texto": "función",
+    "inicioFrame": 34,
+    "finFrame": 48,
+    "palabras": [
+      {
+        "palabra": "función",
+        "inicioFrame": 34,
+        "finFrame": 48
+      }
+    ]
+  },
+  {
+    "texto": "Lanzamos NPS el indicador por",
+    "inicioFrame": 76,
+    "finFrame": 141,
+    "palabras": [
+      {
+        "palabra": "Lanzamos",
+        "inicioFrame": 76,
+        "finFrame": 92
+      },
+      {
+        "palabra": "NPS",
+        "inicioFrame": 92,
+        "finFrame": 110
+      },
+      {
+        "palabra": "el",
+        "inicioFrame": 118,
+        "finFrame": 122
+      },
+      {
+        "palabra": "indicador",
+        "inicioFrame": 122,
+        "finFrame": 136
+      },
+      {
+        "palabra": "por",
+        "inicioFrame": 138,
+        "finFrame": 141
+      }
+    ]
+  },
+  {
+    "texto": "excelencia de Lealtad",
+    "inicioFrame": 141,
+    "finFrame": 173,
+    "palabras": [
+      {
+        "palabra": "excelencia",
+        "inicioFrame": 141,
+        "finFrame": 156
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 157,
+        "finFrame": 158
+      },
+      {
+        "palabra": "Lealtad",
+        "inicioFrame": 159,
+        "finFrame": 173
+      }
+    ]
+  },
+  {
+    "texto": "Ahora cuando registras una compra",
+    "inicioFrame": 200,
+    "finFrame": 250,
+    "palabras": [
+      {
+        "palabra": "Ahora",
+        "inicioFrame": 200,
+        "finFrame": 208
+      },
+      {
+        "palabra": "cuando",
+        "inicioFrame": 210,
+        "finFrame": 216
+      },
+      {
+        "palabra": "registras",
+        "inicioFrame": 217,
+        "finFrame": 232
+      },
+      {
+        "palabra": "una",
+        "inicioFrame": 233,
+        "finFrame": 237
+      },
+      {
+        "palabra": "compra",
+        "inicioFrame": 239,
+        "finFrame": 250
+      }
+    ]
+  },
+  {
+    "texto": "tu cliente recibe una notificación",
+    "inicioFrame": 259,
+    "finFrame": 308,
+    "palabras": [
+      {
+        "palabra": "tu",
+        "inicioFrame": 259,
+        "finFrame": 261
+      },
+      {
+        "palabra": "cliente",
+        "inicioFrame": 262,
+        "finFrame": 272
+      },
+      {
+        "palabra": "recibe",
+        "inicioFrame": 273,
+        "finFrame": 282
+      },
+      {
+        "palabra": "una",
+        "inicioFrame": 284,
+        "finFrame": 288
+      },
+      {
+        "palabra": "notificación",
+        "inicioFrame": 288,
+        "finFrame": 308
+      }
+    ]
+  },
+  {
+    "texto": "con la pregunta sobre si",
+    "inicioFrame": 310,
+    "finFrame": 339,
+    "palabras": [
+      {
+        "palabra": "con",
+        "inicioFrame": 310,
+        "finFrame": 312
+      },
+      {
+        "palabra": "la",
+        "inicioFrame": 313,
+        "finFrame": 315
+      },
+      {
+        "palabra": "pregunta",
+        "inicioFrame": 317,
+        "finFrame": 327
+      },
+      {
+        "palabra": "sobre",
+        "inicioFrame": 328,
+        "finFrame": 335
+      },
+      {
+        "palabra": "si",
+        "inicioFrame": 335,
+        "finFrame": 339
+      }
+    ]
+  },
+  {
+    "texto": "te recomendaría te puede compartir",
+    "inicioFrame": 340,
+    "finFrame": 398,
+    "palabras": [
+      {
+        "palabra": "te",
+        "inicioFrame": 340,
+        "finFrame": 342
+      },
+      {
+        "palabra": "recomendaría",
+        "inicioFrame": 344,
+        "finFrame": 365
+      },
+      {
+        "palabra": "te",
+        "inicioFrame": 375,
+        "finFrame": 376
+      },
+      {
+        "palabra": "puede",
+        "inicioFrame": 379,
+        "finFrame": 383
+      },
+      {
+        "palabra": "compartir",
+        "inicioFrame": 385,
+        "finFrame": 398
+      }
+    ]
+  },
+  {
+    "texto": "más información",
+    "inicioFrame": 398,
+    "finFrame": 423,
+    "palabras": [
+      {
+        "palabra": "más",
+        "inicioFrame": 398,
+        "finFrame": 402
+      },
+      {
+        "palabra": "información",
+        "inicioFrame": 403,
+        "finFrame": 423
+      }
+    ]
+  },
+  {
+    "texto": "NED se cuida de no",
+    "inicioFrame": 450,
+    "finFrame": 473,
+    "palabras": [
+      {
+        "palabra": "NED",
+        "inicioFrame": 450,
+        "finFrame": 457
+      },
+      {
+        "palabra": "se",
+        "inicioFrame": 457,
+        "finFrame": 460
+      },
+      {
+        "palabra": "cuida",
+        "inicioFrame": 462,
+        "finFrame": 469
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 470,
+        "finFrame": 471
+      },
+      {
+        "palabra": "no",
+        "inicioFrame": 471,
+        "finFrame": 473
+      }
+    ]
+  },
+  {
+    "texto": "ser invasivo espera 60 días para",
+    "inicioFrame": 474,
+    "finFrame": 540,
+    "palabras": [
+      {
+        "palabra": "ser",
+        "inicioFrame": 474,
+        "finFrame": 478
+      },
+      {
+        "palabra": "invasivo",
+        "inicioFrame": 478,
+        "finFrame": 495
+      },
+      {
+        "palabra": "espera",
+        "inicioFrame": 503,
+        "finFrame": 513
+      },
+      {
+        "palabra": "60 días",
+        "inicioFrame": 513,
+        "finFrame": 534
+      },
+      {
+        "palabra": "para",
+        "inicioFrame": 536,
+        "finFrame": 540
+      }
+    ]
+  },
+  {
+    "texto": "volver a hacer la pregunta",
+    "inicioFrame": 542,
+    "finFrame": 575,
+    "palabras": [
+      {
+        "palabra": "volver",
+        "inicioFrame": 542,
+        "finFrame": 550
+      },
+      {
+        "palabra": "a",
+        "inicioFrame": 550,
+        "finFrame": 551
+      },
+      {
+        "palabra": "hacer",
+        "inicioFrame": 551,
+        "finFrame": 558
+      },
+      {
+        "palabra": "la",
+        "inicioFrame": 559,
+        "finFrame": 561
+      },
+      {
+        "palabra": "pregunta",
+        "inicioFrame": 562,
+        "finFrame": 575
+      }
+    ]
+  },
+  {
+    "texto": "También puedes contactar directamente a",
+    "inicioFrame": 603,
+    "finFrame": 654,
+    "palabras": [
+      {
+        "palabra": "También",
+        "inicioFrame": 603,
+        "finFrame": 610
+      },
+      {
+        "palabra": "puedes",
+        "inicioFrame": 612,
+        "finFrame": 618
+      },
+      {
+        "palabra": "contactar",
+        "inicioFrame": 620,
+        "finFrame": 633
+      },
+      {
+        "palabra": "directamente",
+        "inicioFrame": 634,
+        "finFrame": 653
+      },
+      {
+        "palabra": "a",
+        "inicioFrame": 653,
+        "finFrame": 654
+      }
+    ]
+  },
+  {
+    "texto": "esos clientes que tuvieron una",
+    "inicioFrame": 656,
+    "finFrame": 691,
+    "palabras": [
+      {
+        "palabra": "esos",
+        "inicioFrame": 656,
+        "finFrame": 662
+      },
+      {
+        "palabra": "clientes",
+        "inicioFrame": 663,
+        "finFrame": 674
+      },
+      {
+        "palabra": "que",
+        "inicioFrame": 675,
+        "finFrame": 677
+      },
+      {
+        "palabra": "tuvieron",
+        "inicioFrame": 679,
+        "finFrame": 687
+      },
+      {
+        "palabra": "una",
+        "inicioFrame": 687,
+        "finFrame": 691
+      }
+    ]
+  },
+  {
+    "texto": "mala experiencia las estadísticas dicen",
+    "inicioFrame": 692,
+    "finFrame": 761,
+    "palabras": [
+      {
+        "palabra": "mala",
+        "inicioFrame": 692,
+        "finFrame": 698
+      },
+      {
+        "palabra": "experiencia",
+        "inicioFrame": 698,
+        "finFrame": 720
+      },
+      {
+        "palabra": "las",
+        "inicioFrame": 729,
+        "finFrame": 734
+      },
+      {
+        "palabra": "estadísticas",
+        "inicioFrame": 734,
+        "finFrame": 752
+      },
+      {
+        "palabra": "dicen",
+        "inicioFrame": 753,
+        "finFrame": 761
+      }
+    ]
+  },
+  {
+    "texto": "que al hacerlo",
+    "inicioFrame": 761,
+    "finFrame": 778,
+    "palabras": [
+      {
+        "palabra": "que",
+        "inicioFrame": 761,
+        "finFrame": 763
+      },
+      {
+        "palabra": "al",
+        "inicioFrame": 763,
+        "finFrame": 766
+      },
+      {
+        "palabra": "hacerlo",
+        "inicioFrame": 766,
+        "finFrame": 778
+      }
+    ]
+  },
+  {
+    "texto": "tienes más probabilidades de recuperarlo",
+    "inicioFrame": 789,
+    "finFrame": 843,
+    "palabras": [
+      {
+        "palabra": "tienes",
+        "inicioFrame": 789,
+        "finFrame": 795
+      },
+      {
+        "palabra": "más",
+        "inicioFrame": 797,
+        "finFrame": 801
+      },
+      {
+        "palabra": "probabilidades",
+        "inicioFrame": 803,
+        "finFrame": 820
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 822,
+        "finFrame": 824
+      },
+      {
+        "palabra": "recuperarlo",
+        "inicioFrame": 825,
+        "finFrame": 843
+      }
+    ]
+  },
+  {
+    "texto": "Puedes desactivar la opción desde",
+    "inicioFrame": 870,
+    "finFrame": 911,
+    "palabras": [
+      {
+        "palabra": "Puedes",
+        "inicioFrame": 870,
+        "finFrame": 878
+      },
+      {
+        "palabra": "desactivar",
+        "inicioFrame": 878,
+        "finFrame": 894
+      },
+      {
+        "palabra": "la",
+        "inicioFrame": 895,
+        "finFrame": 897
+      },
+      {
+        "palabra": "opción",
+        "inicioFrame": 897,
+        "finFrame": 904
+      },
+      {
+        "palabra": "desde",
+        "inicioFrame": 906,
+        "finFrame": 911
+      }
+    ]
+  },
+  {
+    "texto": "el perfil de tu negocio",
+    "inicioFrame": 911,
+    "finFrame": 946,
+    "palabras": [
+      {
+        "palabra": "el",
+        "inicioFrame": 911,
+        "finFrame": 913
+      },
+      {
+        "palabra": "perfil",
+        "inicioFrame": 915,
+        "finFrame": 923
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 925,
+        "finFrame": 926
+      },
+      {
+        "palabra": "tu",
+        "inicioFrame": 928,
+        "finFrame": 930
+      },
+      {
+        "palabra": "negocio",
+        "inicioFrame": 931,
+        "finFrame": 946
+      }
+    ]
+  },
+  {
+    "texto": "Recuerda NED es gratuita queremos",
+    "inicioFrame": 974,
+    "finFrame": 1046,
+    "palabras": [
+      {
+        "palabra": "Recuerda",
+        "inicioFrame": 974,
+        "finFrame": 993
+      },
+      {
+        "palabra": "NED",
+        "inicioFrame": 1001,
+        "finFrame": 1006
+      },
+      {
+        "palabra": "es",
+        "inicioFrame": 1006,
+        "finFrame": 1009
+      },
+      {
+        "palabra": "gratuita",
+        "inicioFrame": 1010,
+        "finFrame": 1027
+      },
+      {
+        "palabra": "queremos",
+        "inicioFrame": 1036,
+        "finFrame": 1046
+      }
+    ]
+  },
+  {
+    "texto": "que disfrutes el poder de",
+    "inicioFrame": 1047,
+    "finFrame": 1077,
+    "palabras": [
+      {
+        "palabra": "que",
+        "inicioFrame": 1047,
+        "finFrame": 1048
+      },
+      {
+        "palabra": "disfrutes",
+        "inicioFrame": 1050,
+        "finFrame": 1063
+      },
+      {
+        "palabra": "el",
+        "inicioFrame": 1063,
+        "finFrame": 1065
+      },
+      {
+        "palabra": "poder",
+        "inicioFrame": 1068,
+        "finFrame": 1074
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 1075,
+        "finFrame": 1077
+      }
+    ]
+  },
+  {
+    "texto": "la Lealtad",
+    "inicioFrame": 1078,
+    "finFrame": 1094,
+    "palabras": [
+      {
+        "palabra": "la",
+        "inicioFrame": 1078,
+        "finFrame": 1080
+      },
+      {
+        "palabra": "Lealtad",
+        "inicioFrame": 1081,
+        "finFrame": 1094
+      }
+    ]
+  }
+]
