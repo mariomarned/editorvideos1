@@ -22,7 +22,7 @@ export const RemotionRoot: React.FC = () => {
         <Composition
           id="NedNpsReel"
           component={NpsReel}
-          durationInFrames={1158}
+          durationInFrames={1218}
           fps={MARCA_NED.video.fps}
           width={MARCA_NED.video.vertical.width}
           height={MARCA_NED.video.vertical.height}

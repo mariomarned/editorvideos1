@@ -547,17 +547,19 @@ export const NpsReel: React.FC<NpsReelProps> = ({
     <AbsoluteFill style={{ background: FONDO_RADIAL_NED }}>
       <DecoracionUrbanaMemphis />
 
-      {/* Pista principal de narración */}
-      <Audio src={staticFile("ned/audio/nps/danielanps.mp3")} volume={1} />
+      {/* Pista principal de narración (inicia a los 2 s / frame 60) */}
+      <Sequence from={60}>
+        <Audio src={staticFile("ned/audio/nps/danielanps.mp3")} volume={1} />
+      </Sequence>
 
-      {/* Música de fondo desde la escena 2 con fade-in y fade-out */}
-      <Sequence from={64} durationInFrames={1094}>
+      {/* Música de fondo desde el inicio con fade-in y fade-out */}
+      <Sequence from={0} durationInFrames={1218}>
         <Audio
           src={staticFile(
             "ned/audio/musicafondo/Follow Me - The Soundlings.mp3"
           )}
           volume={(f) =>
-            interpolate(f, [0, 30, 1034, 1094], [0, 0.11, 0.11, 0], {
+            interpolate(f, [0, 25, 1158, 1218], [0, 0.11, 0.11, 0], {
               extrapolateLeft: "clamp",
               extrapolateRight: "clamp",
             })
@@ -569,54 +571,56 @@ export const NpsReel: React.FC<NpsReelProps> = ({
       <Sequence from={0} durationInFrames={30}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.5} destello />
       </Sequence>
-      <Sequence from={64} durationInFrames={25}>
+      <Sequence from={124} durationInFrames={25}>
         <Efecto audioSrc="audio/cc0/blip-plock-pop.mp3" volumen={0.45} />
       </Sequence>
-      <Sequence from={206} durationInFrames={30}>
+      <Sequence from={266} durationInFrames={30}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.4} />
       </Sequence>
-      <Sequence from={396} durationInFrames={25}>
+      <Sequence from={456} durationInFrames={25}>
         <Efecto audioSrc="audio/cc0/blip-plock-pop.mp3" volumen={0.45} />
       </Sequence>
-      <Sequence from={558} durationInFrames={30}>
+      <Sequence from={618} durationInFrames={30}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.4} />
       </Sequence>
-      <Sequence from={848} durationInFrames={25}>
+      <Sequence from={908} durationInFrames={25}>
         <Efecto audioSrc="audio/cc0/blip-plock-pop.mp3" volumen={0.45} />
       </Sequence>
-      <Sequence from={948} durationInFrames={30}>
+      <Sequence from={1008} durationInFrames={30}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.45} destello />
       </Sequence>
 
       {/* Escenas sincronizadas con la narración */}
-      <Sequence from={0} durationInFrames={64}>
+      <Sequence from={0} durationInFrames={124}>
         <Escena1NuevaFuncion titulo={tituloGancho} />
       </Sequence>
-      <Sequence from={64} durationInFrames={142}>
+      <Sequence from={124} durationInFrames={142}>
         <Escena2LanzamientoImagen1 />
       </Sequence>
-      <Sequence from={206} durationInFrames={190}>
+      <Sequence from={266} durationInFrames={190}>
         <Escena3NotificacionCompra />
       </Sequence>
-      <Sequence from={396} durationInFrames={162}>
+      <Sequence from={456} durationInFrames={162}>
         <Escena4FrecuenciaImagen2 />
       </Sequence>
-      <Sequence from={558} durationInFrames={290}>
+      <Sequence from={618} durationInFrames={290}>
         <Escena5RecuperarImagen3 />
       </Sequence>
-      <Sequence from={848} durationInFrames={100}>
+      <Sequence from={908} durationInFrames={100}>
         <Escena6ConfiguracionPerfil />
       </Sequence>
-      <Sequence from={948} durationInFrames={210}>
+      <Sequence from={1008} durationInFrames={210}>
         <Escena7CierreGratuita llamadoAccion={llamadoAccion} />
       </Sequence>
 
-      {/* Subtítulos en zona segura inferior */}
-      <Subtitulos
-        segmentos={SEGMENTOS}
-        margenInferior={MARCA.video.zonaSeguraVertical.abajoPx - 25}
-        tamanoFuente={50}
-      />
+      {/* Subtítulos en zona segura inferior (desplazados 60 frames con la voz) */}
+      <Sequence from={60}>
+        <Subtitulos
+          segmentos={SEGMENTOS}
+          margenInferior={MARCA.video.zonaSeguraVertical.abajoPx - 25}
+          tamanoFuente={50}
+        />
+      </Sequence>
     </AbsoluteFill>
   );
 };
