@@ -1,0 +1,486 @@
+{
+  "idioma": "es",
+  "texto": "¿Tienes un negocio? NED es para ti. Si las grandes marcas lo hacen, tú también puedes con NED. Crean planes de puntos, hacen sorteos, dan incentivos por referidos, felicitan y dan bonos a los clientes en sus cumpleaños y muchas otras. En NED las puedes crear en segundos, tenemos ocho dinámicas y vienen más. Además de otras herramientas pensadas para tu negocio como ventas fiadas, reserva de citas, NPS, mostrar tus productos o servicios. Puedes tener todo listo en segundos y sin costo. No esperes más, descarga la app y disfruta el poder de la Lealtad.",
+  "palabras": [
+    {
+      "palabra": "¿Tienes",
+      "inicioSeg": 0.0,
+      "finSeg": 0.34
+    },
+    {
+      "palabra": "un",
+      "inicioSeg": 0.34,
+      "finSeg": 0.46
+    },
+    {
+      "palabra": "negocio?",
+      "inicioSeg": 0.46,
+      "finSeg": 0.92
+    },
+    {
+      "palabra": "NED",
+      "inicioSeg": 1.3,
+      "finSeg": 1.64
+    },
+    {
+      "palabra": "es",
+      "inicioSeg": 1.64,
+      "finSeg": 2.0
+    },
+    {
+      "palabra": "para",
+      "inicioSeg": 2.0,
+      "finSeg": 2.22
+    },
+    {
+      "palabra": "ti.",
+      "inicioSeg": 2.22,
+      "finSeg": 2.46
+    },
+    {
+      "palabra": "Si",
+      "inicioSeg": 2.9,
+      "finSeg": 3.02
+    },
+    {
+      "palabra": "las",
+      "inicioSeg": 3.02,
+      "finSeg": 3.18
+    },
+    {
+      "palabra": "grandes",
+      "inicioSeg": 3.18,
+      "finSeg": 3.42
+    },
+    {
+      "palabra": "marcas",
+      "inicioSeg": 3.42,
+      "finSeg": 3.82
+    },
+    {
+      "palabra": "lo",
+      "inicioSeg": 3.82,
+      "finSeg": 4.06
+    },
+    {
+      "palabra": "hacen,",
+      "inicioSeg": 4.06,
+      "finSeg": 4.36
+    },
+    {
+      "palabra": "tú",
+      "inicioSeg": 4.68,
+      "finSeg": 4.84
+    },
+    {
+      "palabra": "también",
+      "inicioSeg": 4.84,
+      "finSeg": 5.14
+    },
+    {
+      "palabra": "puedes",
+      "inicioSeg": 5.14,
+      "finSeg": 5.5
+    },
+    {
+      "palabra": "con",
+      "inicioSeg": 5.5,
+      "finSeg": 5.82
+    },
+    {
+      "palabra": "NED.",
+      "inicioSeg": 5.82,
+      "finSeg": 6.12
+    },
+    {
+      "palabra": "Crean",
+      "inicioSeg": 6.62,
+      "finSeg": 6.84
+    },
+    {
+      "palabra": "planes",
+      "inicioSeg": 6.84,
+      "finSeg": 7.12
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 7.12,
+      "finSeg": 7.34
+    },
+    {
+      "palabra": "puntos,",
+      "inicioSeg": 7.34,
+      "finSeg": 7.68
+    },
+    {
+      "palabra": "hacen",
+      "inicioSeg": 8.12,
+      "finSeg": 8.36
+    },
+    {
+      "palabra": "sorteos,",
+      "inicioSeg": 8.36,
+      "finSeg": 8.98
+    },
+    {
+      "palabra": "dan",
+      "inicioSeg": 9.34,
+      "finSeg": 9.44
+    },
+    {
+      "palabra": "incentivos",
+      "inicioSeg": 9.44,
+      "finSeg": 10.02
+    },
+    {
+      "palabra": "por",
+      "inicioSeg": 10.02,
+      "finSeg": 10.24
+    },
+    {
+      "palabra": "referidos,",
+      "inicioSeg": 10.24,
+      "finSeg": 10.8
+    },
+    {
+      "palabra": "felicitan",
+      "inicioSeg": 11.18,
+      "finSeg": 11.76
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 11.76,
+      "finSeg": 11.9
+    },
+    {
+      "palabra": "dan",
+      "inicioSeg": 11.9,
+      "finSeg": 12.02
+    },
+    {
+      "palabra": "bonos",
+      "inicioSeg": 12.02,
+      "finSeg": 12.38
+    },
+    {
+      "palabra": "a",
+      "inicioSeg": 12.38,
+      "finSeg": 12.48
+    },
+    {
+      "palabra": "los",
+      "inicioSeg": 12.48,
+      "finSeg": 12.6
+    },
+    {
+      "palabra": "clientes",
+      "inicioSeg": 12.6,
+      "finSeg": 13.04
+    },
+    {
+      "palabra": "en",
+      "inicioSeg": 13.04,
+      "finSeg": 13.18
+    },
+    {
+      "palabra": "sus",
+      "inicioSeg": 13.18,
+      "finSeg": 13.32
+    },
+    {
+      "palabra": "cumpleaños",
+      "inicioSeg": 13.32,
+      "finSeg": 13.94
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 13.94,
+      "finSeg": 14.38
+    },
+    {
+      "palabra": "muchas",
+      "inicioSeg": 14.38,
+      "finSeg": 14.78
+    },
+    {
+      "palabra": "otras.",
+      "inicioSeg": 14.78,
+      "finSeg": 15.1
+    },
+    {
+      "palabra": "En",
+      "inicioSeg": 15.62,
+      "finSeg": 15.78
+    },
+    {
+      "palabra": "NED",
+      "inicioSeg": 15.78,
+      "finSeg": 16.04
+    },
+    {
+      "palabra": "las",
+      "inicioSeg": 16.04,
+      "finSeg": 16.34
+    },
+    {
+      "palabra": "puedes",
+      "inicioSeg": 16.34,
+      "finSeg": 16.58
+    },
+    {
+      "palabra": "crear",
+      "inicioSeg": 16.58,
+      "finSeg": 16.94
+    },
+    {
+      "palabra": "en",
+      "inicioSeg": 16.94,
+      "finSeg": 17.12
+    },
+    {
+      "palabra": "segundos,",
+      "inicioSeg": 17.12,
+      "finSeg": 17.6
+    },
+    {
+      "palabra": "tenemos",
+      "inicioSeg": 18.0,
+      "finSeg": 18.28
+    },
+    {
+      "palabra": "ocho",
+      "inicioSeg": 18.28,
+      "finSeg": 18.74
+    },
+    {
+      "palabra": "dinámicas",
+      "inicioSeg": 18.74,
+      "finSeg": 19.24
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 19.24,
+      "finSeg": 19.54
+    },
+    {
+      "palabra": "vienen",
+      "inicioSeg": 19.54,
+      "finSeg": 19.84
+    },
+    {
+      "palabra": "más.",
+      "inicioSeg": 19.84,
+      "finSeg": 20.16
+    },
+    {
+      "palabra": "Además",
+      "inicioSeg": 20.46,
+      "finSeg": 20.72
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 20.72,
+      "finSeg": 20.94
+    },
+    {
+      "palabra": "otras",
+      "inicioSeg": 20.94,
+      "finSeg": 21.12
+    },
+    {
+      "palabra": "herramientas",
+      "inicioSeg": 21.12,
+      "finSeg": 21.76
+    },
+    {
+      "palabra": "pensadas",
+      "inicioSeg": 21.76,
+      "finSeg": 22.18
+    },
+    {
+      "palabra": "para",
+      "inicioSeg": 22.18,
+      "finSeg": 22.44
+    },
+    {
+      "palabra": "tu",
+      "inicioSeg": 22.44,
+      "finSeg": 22.6
+    },
+    {
+      "palabra": "negocio",
+      "inicioSeg": 22.6,
+      "finSeg": 23.08
+    },
+    {
+      "palabra": "como",
+      "inicioSeg": 23.08,
+      "finSeg": 23.5
+    },
+    {
+      "palabra": "ventas",
+      "inicioSeg": 23.5,
+      "finSeg": 24.24
+    },
+    {
+      "palabra": "fiadas,",
+      "inicioSeg": 24.24,
+      "finSeg": 24.64
+    },
+    {
+      "palabra": "reserva",
+      "inicioSeg": 25.04,
+      "finSeg": 25.44
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 25.44,
+      "finSeg": 25.56
+    },
+    {
+      "palabra": "citas,",
+      "inicioSeg": 25.56,
+      "finSeg": 26.02
+    },
+    {
+      "palabra": "NPS,",
+      "inicioSeg": 26.32,
+      "finSeg": 26.8
+    },
+    {
+      "palabra": "mostrar",
+      "inicioSeg": 27.24,
+      "finSeg": 27.6
+    },
+    {
+      "palabra": "tus",
+      "inicioSeg": 27.6,
+      "finSeg": 27.82
+    },
+    {
+      "palabra": "productos",
+      "inicioSeg": 27.82,
+      "finSeg": 28.26
+    },
+    {
+      "palabra": "o",
+      "inicioSeg": 28.26,
+      "finSeg": 28.5
+    },
+    {
+      "palabra": "servicios.",
+      "inicioSeg": 28.5,
+      "finSeg": 28.92
+    },
+    {
+      "palabra": "Puedes",
+      "inicioSeg": 28.92,
+      "finSeg": 29.62
+    },
+    {
+      "palabra": "tener",
+      "inicioSeg": 29.62,
+      "finSeg": 29.84
+    },
+    {
+      "palabra": "todo",
+      "inicioSeg": 29.84,
+      "finSeg": 30.2
+    },
+    {
+      "palabra": "listo",
+      "inicioSeg": 30.2,
+      "finSeg": 30.62
+    },
+    {
+      "palabra": "en",
+      "inicioSeg": 30.62,
+      "finSeg": 30.7
+    },
+    {
+      "palabra": "segundos",
+      "inicioSeg": 30.7,
+      "finSeg": 31.18
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 31.18,
+      "finSeg": 31.5
+    },
+    {
+      "palabra": "sin",
+      "inicioSeg": 31.5,
+      "finSeg": 31.72
+    },
+    {
+      "palabra": "costo.",
+      "inicioSeg": 31.72,
+      "finSeg": 32.36
+    },
+    {
+      "palabra": "No",
+      "inicioSeg": 32.6,
+      "finSeg": 32.66
+    },
+    {
+      "palabra": "esperes",
+      "inicioSeg": 32.66,
+      "finSeg": 33.06
+    },
+    {
+      "palabra": "más,",
+      "inicioSeg": 33.06,
+      "finSeg": 33.2
+    },
+    {
+      "palabra": "descarga",
+      "inicioSeg": 33.58,
+      "finSeg": 34.02
+    },
+    {
+      "palabra": "la",
+      "inicioSeg": 34.02,
+      "finSeg": 34.16
+    },
+    {
+      "palabra": "app",
+      "inicioSeg": 34.16,
+      "finSeg": 34.38
+    },
+    {
+      "palabra": "y",
+      "inicioSeg": 34.38,
+      "finSeg": 34.56
+    },
+    {
+      "palabra": "disfruta",
+      "inicioSeg": 34.56,
+      "finSeg": 35.12
+    },
+    {
+      "palabra": "el",
+      "inicioSeg": 35.12,
+      "finSeg": 35.24
+    },
+    {
+      "palabra": "poder",
+      "inicioSeg": 35.24,
+      "finSeg": 35.54
+    },
+    {
+      "palabra": "de",
+      "inicioSeg": 35.54,
+      "finSeg": 35.72
+    },
+    {
+      "palabra": "la",
+      "inicioSeg": 35.72,
+      "finSeg": 35.86
+    },
+    {
+      "palabra": "Lealtad.",
+      "inicioSeg": 35.86,
+      "finSeg": 36.36
+    }
+  ]
+}

@@ -18,3 +18,9 @@
   - Composición `NedNpsReel` (`1080×1920`, 30 fps, 1158 frames / 38.60 s) en `src/videos/ned/02-nps/NpsReel.tsx`, registrada en `src/Root.tsx` bajo `<Folder name="NED">` con la misma línea visual de `NedZencilloReel`.
   - Integración de las capturas `imagen 1.png`, `imagen 2.png` e `imagen 3.png` de `public/ned/material/nps/`, narración personalizada en `public/ned/audio/nps/danielanps.mp3`, subtítulos por palabra transcritos en `public/ned/subtitulos/nps/nps.json` y música de fondo `Follow Me - The Soundlings.mp3`.
   - Libreto completo y textos de publicación en `guiones/ned/02-nps.md`.
+
+## 2026-11-24
+- Creación e implementación completa del proyecto **Grandes Marcas** (`03-grandes-marcas`) dentro de **NED**:
+  - Soporte de variante magenta con footer amarillo (`FONDO_RADIAL_NED_MAGENTA`, `DecoracionUrbanaMemphis` y `PildoraNed` con `variante`, y `public/ned/material/footerNED-amarillo.png`) en `src/videos/ned/componentes/DisenoNed.tsx`.
+  - Composición `NedGrandesMarcasReel` (`1080×1920`, 30 fps, `1200` frames / `40.00 s`) en `src/videos/ned/03-grandes-marcas/GrandesMarcasReel.tsx`, sincronizada con la voz de ElevenLabs (`ElevenLabs_2026-11-24T15_50_13_Mrchepe_pvc_s50_sim75_v4.mp3`), música de fondo `Follow Me - The Soundlings.mp3`, subtítulos por palabra en `public/ned/subtitulos/grandes-marcas/grandes-marcas.json` y animación de entrada + efecto de sonido individual para las 9 imágenes (`imagen1.jpeg`..`Imagen9.png`).
+  - Libreto completo y textos de publicación en `guiones/ned/03-grandes-marcas.md`.

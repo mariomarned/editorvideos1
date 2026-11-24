@@ -6,6 +6,7 @@ import { ShortEjemplo } from "./composiciones/ShortEjemplo";
 import { VideoEjemplo } from "./composiciones/VideoEjemplo";
 import { NedZencilloReel } from "./videos/ned/01-ned-zencillo/NedZencilloReel";
 import { NpsReel } from "./videos/ned/02-nps/NpsReel";
+import { GrandesMarcasReel } from "./videos/ned/03-grandes-marcas/GrandesMarcasReel";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -29,6 +30,18 @@ export const RemotionRoot: React.FC = () => {
           defaultProps={{
             tituloGancho: "NED tiene",
             llamadoAccion: "NED ES GRATUITA",
+          }}
+        />
+        <Composition
+          id="NedGrandesMarcasReel"
+          component={GrandesMarcasReel}
+          durationInFrames={1200}
+          fps={MARCA_NED.video.fps}
+          width={MARCA_NED.video.vertical.width}
+          height={MARCA_NED.video.vertical.height}
+          defaultProps={{
+            tituloGancho: "grandes marcas",
+            llamadoAccion: "DESCARGA LA APP",
           }}
         />
       </Folder>

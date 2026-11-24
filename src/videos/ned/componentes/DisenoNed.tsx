@@ -12,17 +12,39 @@ import { MARCA_NED as MARCA } from "../../../marcas/ned";
 export const FONDO_RADIAL_NED =
   "radial-gradient(circle at 50% 42%, #FFFBE0 0%, #FFE700 68%, #F7DA00 100%)";
 
+export const FONDO_RADIAL_NED_MAGENTA =
+  "radial-gradient(circle at 50% 42%, #DF3494 0%, #C4227D 65%, #9B1661 100%)";
+
+export type VarianteTemaNed = "amarillo" | "magenta";
+
 /**
  * Decoración SVG Corporate Memphis + vibra urbana + banda inferior oficial NED.
+ * Por defecto usa fondo amarillo con footer magenta; con `variante="magenta"` usa
+ * formas en amarillo y la banda inferior amarilla con `footerNED-amarillo.png`.
  */
-export const DecoracionUrbanaMemphis: React.FC = () => {
+export const DecoracionUrbanaMemphis: React.FC<{
+  variante?: VarianteTemaNed;
+}> = ({ variante = "amarillo" }) => {
   const frame = useCurrentFrame();
   const flotar1 = Math.sin(frame / 26) * 14;
   const flotar2 = Math.cos(frame / 32) * 16;
+  const esMagenta = variante === "magenta";
+  const colorAcento = esMagenta
+    ? MARCA.colores.secundario
+    : MARCA.colores.primario;
+  const colorTrazoSecundario = esMagenta
+    ? MARCA.colores.texto
+    : MARCA.colores.textoOscuro;
+  const colorFooter = esMagenta
+    ? MARCA.colores.secundario
+    : MARCA.colores.primario;
+  const imagenFooter = esMagenta
+    ? "ned/material/footerNED-amarillo.png"
+    : "ned/material/footerNED.png";
 
   return (
     <AbsoluteFill style={{ pointerEvents: "none", overflow: "hidden" }}>
-      {/* Blob Corporate Memphis magenta a la derecha */}
+      {/* Blob Corporate Memphis a la derecha */}
       <svg
         width="340"
         height="340"
@@ -31,17 +53,17 @@ export const DecoracionUrbanaMemphis: React.FC = () => {
           position: "absolute",
           top: 260 + flotar1,
           right: -130,
-          opacity: 0.18,
+          opacity: esMagenta ? 0.16 : 0.18,
         }}
       >
         <path
           d="M44.7,-64.2C58.8,-54.8,71.6,-42.9,78.1,-28.1C84.6,-13.3,84.8,4.4,78.7,20.2C72.6,36,60.2,49.9,45.5,60.4C30.8,70.9,13.9,78,-3.5,82.8C-20.9,87.6,-38.8,90.1,-53.3,81.4C-67.8,72.7,-78.9,52.8,-83.2,32.6C-87.5,12.4,-85,-8.1,-76.8,-25.9C-68.6,-43.7,-54.7,-58.8,-39.1,-67.6C-23.5,-76.4,-6.2,-78.9,8.7,-76.3C23.6,-73.7,30.6,-73.6,44.7,-64.2Z"
           transform="translate(100 100)"
-          fill={MARCA.colores.primario}
+          fill={colorAcento}
         />
       </svg>
 
-      {/* Zig-zag urbano negro arriba derecha */}
+      {/* Zig-zag urbano arriba derecha */}
       <svg
         width="160"
         height="70"
@@ -51,13 +73,13 @@ export const DecoracionUrbanaMemphis: React.FC = () => {
           top: 165,
           right: 60,
           transform: `translateY(${flotar2 * 0.5}px) rotate(-8deg)`,
-          opacity: 0.75,
+          opacity: 0.78,
         }}
       >
         <polyline
           points="8,48 32,18 56,48 80,18 104,48 128,18 152,48"
           fill="none"
-          stroke={MARCA.colores.textoOscuro}
+          stroke={colorTrazoSecundario}
           strokeWidth="6"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -76,14 +98,14 @@ export const DecoracionUrbanaMemphis: React.FC = () => {
           cy={540 + flotar2}
           r="14"
           fill="none"
-          stroke={MARCA.colores.primario}
+          stroke={colorAcento}
           strokeWidth="5"
         />
         <circle
           cx="975"
           cy={1180 + flotar1}
           r="16"
-          fill={MARCA.colores.primario}
+          fill={colorAcento}
         />
         <rect
           x="74"
@@ -92,13 +114,13 @@ export const DecoracionUrbanaMemphis: React.FC = () => {
           height="24"
           rx="4"
           fill="none"
-          stroke={MARCA.colores.textoOscuro}
+          stroke={colorTrazoSecundario}
           strokeWidth="4.5"
           transform={`rotate(22 86 ${1332 - flotar1})`}
         />
       </svg>
 
-      {/* Banda curva Magenta inferior fiel a la muestra NED con footerNED.png */}
+      {/* Banda curva inferior fiel a la muestra NED */}
       <svg
         width="1080"
         height="320"
@@ -107,7 +129,7 @@ export const DecoracionUrbanaMemphis: React.FC = () => {
       >
         <path
           d="M0,70 Q540,-18 1080,60 L1080,320 L0,320 Z"
-          fill={MARCA.colores.primario}
+          fill={colorFooter}
         />
       </svg>
       <div
@@ -123,7 +145,7 @@ export const DecoracionUrbanaMemphis: React.FC = () => {
         }}
       >
         <Img
-          src={staticFile("ned/material/footerNED.png")}
+          src={staticFile(imagenFooter)}
           style={{
             width: "100%",
             maxHeight: 235,
@@ -135,8 +157,11 @@ export const DecoracionUrbanaMemphis: React.FC = () => {
   );
 };
 
-/** Rayitas de énfasis (burst lines) magenta como en la muestra NED */
-export const RayitasEnfasis: React.FC<{ lado: "izq" | "der" }> = ({ lado }) => (
+/** Rayitas de énfasis (burst lines) como en la muestra NED */
+export const RayitasEnfasis: React.FC<{
+  lado: "izq" | "der";
+  color?: string;
+}> = ({ lado, color = MARCA.colores.primario }) => (
   <svg
     width="52"
     height="74"
@@ -151,7 +176,7 @@ export const RayitasEnfasis: React.FC<{ lado: "izq" | "der" }> = ({ lado }) => (
       y1="20"
       x2="42"
       y2="10"
-      stroke={MARCA.colores.primario}
+      stroke={color}
       strokeWidth="7"
       strokeLinecap="round"
     />
@@ -160,7 +185,7 @@ export const RayitasEnfasis: React.FC<{ lado: "izq" | "der" }> = ({ lado }) => (
       y1="38"
       x2="48"
       y2="38"
-      stroke={MARCA.colores.primario}
+      stroke={color}
       strokeWidth="7"
       strokeLinecap="round"
     />
@@ -169,47 +194,64 @@ export const RayitasEnfasis: React.FC<{ lado: "izq" | "der" }> = ({ lado }) => (
       y1="56"
       x2="42"
       y2="66"
-      stroke={MARCA.colores.primario}
+      stroke={color}
       strokeWidth="7"
       strokeLinecap="round"
     />
   </svg>
 );
 
-/** Píldora Magenta inclinada con texto blanco y rayitas, estilo muestra NED */
-export const PildoraNed: React.FC<{ texto: string; fontSize?: number }> = ({
-  texto,
-  fontSize = 60,
-}) => (
-  <div
-    style={{
-      display: "inline-flex",
-      alignItems: "center",
-      gap: 14,
-      transform: "rotate(-2.2deg)",
-      margin: "6px 0",
-    }}
-  >
-    <RayitasEnfasis lado="izq" />
+/** Píldora inclinada con rayitas, estilo muestra NED (magenta por defecto o amarilla sobre fondo magenta) */
+export const PildoraNed: React.FC<{
+  texto: string;
+  fontSize?: number;
+  variante?: "magenta" | "amarillo";
+}> = ({ texto, fontSize = 60, variante = "magenta" }) => {
+  const esAmarillo = variante === "amarillo";
+  const colorRayas = esAmarillo
+    ? MARCA.colores.secundario
+    : MARCA.colores.primario;
+
+  return (
     <div
       style={{
-        backgroundColor: MARCA.colores.primario,
-        color: MARCA.colores.texto,
-        fontFamily: MARCA.tipografia.titulos,
-        fontSize,
-        fontWeight: 900,
-        padding: "14px 38px",
-        borderRadius: 999,
-        letterSpacing: "-0.01em",
-        boxShadow: "0 10px 0 rgba(20, 17, 29, 0.16)",
-        textTransform: "uppercase",
+        display: "inline-flex",
+        alignItems: "center",
+        gap: 14,
+        transform: "rotate(-2.2deg)",
+        margin: "6px 0",
       }}
     >
-      {texto}
+      <RayitasEnfasis lado="izq" color={colorRayas} />
+      <div
+        style={{
+          backgroundColor: esAmarillo
+            ? MARCA.colores.secundario
+            : MARCA.colores.primario,
+          color: esAmarillo
+            ? MARCA.colores.textoOscuro
+            : MARCA.colores.texto,
+          border: esAmarillo
+            ? `3px solid ${MARCA.colores.textoOscuro}`
+            : undefined,
+          fontFamily: MARCA.tipografia.titulos,
+          fontSize,
+          fontWeight: 900,
+          padding: "14px 38px",
+          borderRadius: 999,
+          letterSpacing: "-0.01em",
+          boxShadow: esAmarillo
+            ? "0 10px 0 rgba(20, 17, 29, 0.28)"
+            : "0 10px 0 rgba(20, 17, 29, 0.16)",
+          textTransform: "uppercase",
+        }}
+      >
+        {texto}
+      </div>
+      <RayitasEnfasis lado="der" color={colorRayas} />
     </div>
-    <RayitasEnfasis lado="der" />
-  </div>
-);
+  );
+};
 
 /** Óvalo amarillo con borde fino negro y texto magenta subrayado, estilo "SIMPLE Y GRATIS" */
 export const OvaloDestacado: React.FC<{ texto: string; fontSize?: number }> = ({
@@ -345,10 +387,19 @@ export const MarcoSticker: React.FC<{
   children: React.ReactNode;
   sombraColor?: string;
   padding?: string | number;
-}> = ({ children, sombraColor = MARCA.colores.primario, padding = 16 }) => (
+  width?: string | number;
+  maxWidth?: string | number;
+}> = ({
+  children,
+  sombraColor = MARCA.colores.primario,
+  padding = 16,
+  width = "100%",
+  maxWidth = "100%",
+}) => (
   <div
     style={{
-      width: "100%",
+      width,
+      maxWidth,
       backgroundColor: MARCA.colores.fondoClaro,
       border: `3.5px solid ${MARCA.colores.textoOscuro}`,
       borderRadius: 30,

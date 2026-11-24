@@ -1,0 +1,622 @@
+[
+  {
+    "texto": "¿Tienes un negocio? NED es",
+    "inicioFrame": 0,
+    "finFrame": 60,
+    "palabras": [
+      {
+        "palabra": "¿Tienes",
+        "inicioFrame": 0,
+        "finFrame": 10
+      },
+      {
+        "palabra": "un",
+        "inicioFrame": 10,
+        "finFrame": 14
+      },
+      {
+        "palabra": "negocio?",
+        "inicioFrame": 14,
+        "finFrame": 28
+      },
+      {
+        "palabra": "NED",
+        "inicioFrame": 39,
+        "finFrame": 49
+      },
+      {
+        "palabra": "es",
+        "inicioFrame": 49,
+        "finFrame": 60
+      }
+    ]
+  },
+  {
+    "texto": "para ti. Si las grandes",
+    "inicioFrame": 60,
+    "finFrame": 103,
+    "palabras": [
+      {
+        "palabra": "para",
+        "inicioFrame": 60,
+        "finFrame": 67
+      },
+      {
+        "palabra": "ti.",
+        "inicioFrame": 67,
+        "finFrame": 74
+      },
+      {
+        "palabra": "Si",
+        "inicioFrame": 87,
+        "finFrame": 91
+      },
+      {
+        "palabra": "las",
+        "inicioFrame": 91,
+        "finFrame": 95
+      },
+      {
+        "palabra": "grandes",
+        "inicioFrame": 95,
+        "finFrame": 103
+      }
+    ]
+  },
+  {
+    "texto": "marcas lo hacen, tú también",
+    "inicioFrame": 103,
+    "finFrame": 154,
+    "palabras": [
+      {
+        "palabra": "marcas",
+        "inicioFrame": 103,
+        "finFrame": 115
+      },
+      {
+        "palabra": "lo",
+        "inicioFrame": 115,
+        "finFrame": 122
+      },
+      {
+        "palabra": "hacen,",
+        "inicioFrame": 122,
+        "finFrame": 131
+      },
+      {
+        "palabra": "tú",
+        "inicioFrame": 140,
+        "finFrame": 145
+      },
+      {
+        "palabra": "también",
+        "inicioFrame": 145,
+        "finFrame": 154
+      }
+    ]
+  },
+  {
+    "texto": "puedes con NED. Crean planes",
+    "inicioFrame": 154,
+    "finFrame": 214,
+    "palabras": [
+      {
+        "palabra": "puedes",
+        "inicioFrame": 154,
+        "finFrame": 165
+      },
+      {
+        "palabra": "con",
+        "inicioFrame": 165,
+        "finFrame": 175
+      },
+      {
+        "palabra": "NED.",
+        "inicioFrame": 175,
+        "finFrame": 184
+      },
+      {
+        "palabra": "Crean",
+        "inicioFrame": 199,
+        "finFrame": 205
+      },
+      {
+        "palabra": "planes",
+        "inicioFrame": 205,
+        "finFrame": 214
+      }
+    ]
+  },
+  {
+    "texto": "de puntos, hacen sorteos, dan",
+    "inicioFrame": 214,
+    "finFrame": 283,
+    "palabras": [
+      {
+        "palabra": "de",
+        "inicioFrame": 214,
+        "finFrame": 220
+      },
+      {
+        "palabra": "puntos,",
+        "inicioFrame": 220,
+        "finFrame": 230
+      },
+      {
+        "palabra": "hacen",
+        "inicioFrame": 244,
+        "finFrame": 251
+      },
+      {
+        "palabra": "sorteos,",
+        "inicioFrame": 251,
+        "finFrame": 269
+      },
+      {
+        "palabra": "dan",
+        "inicioFrame": 280,
+        "finFrame": 283
+      }
+    ]
+  },
+  {
+    "texto": "incentivos por referidos, felicitan y",
+    "inicioFrame": 283,
+    "finFrame": 357,
+    "palabras": [
+      {
+        "palabra": "incentivos",
+        "inicioFrame": 283,
+        "finFrame": 301
+      },
+      {
+        "palabra": "por",
+        "inicioFrame": 301,
+        "finFrame": 307
+      },
+      {
+        "palabra": "referidos,",
+        "inicioFrame": 307,
+        "finFrame": 324
+      },
+      {
+        "palabra": "felicitan",
+        "inicioFrame": 335,
+        "finFrame": 353
+      },
+      {
+        "palabra": "y",
+        "inicioFrame": 353,
+        "finFrame": 357
+      }
+    ]
+  },
+  {
+    "texto": "dan bonos a los clientes",
+    "inicioFrame": 357,
+    "finFrame": 391,
+    "palabras": [
+      {
+        "palabra": "dan",
+        "inicioFrame": 357,
+        "finFrame": 361
+      },
+      {
+        "palabra": "bonos",
+        "inicioFrame": 361,
+        "finFrame": 371
+      },
+      {
+        "palabra": "a",
+        "inicioFrame": 371,
+        "finFrame": 374
+      },
+      {
+        "palabra": "los",
+        "inicioFrame": 374,
+        "finFrame": 378
+      },
+      {
+        "palabra": "clientes",
+        "inicioFrame": 378,
+        "finFrame": 391
+      }
+    ]
+  },
+  {
+    "texto": "en sus cumpleaños y muchas",
+    "inicioFrame": 391,
+    "finFrame": 443,
+    "palabras": [
+      {
+        "palabra": "en",
+        "inicioFrame": 391,
+        "finFrame": 395
+      },
+      {
+        "palabra": "sus",
+        "inicioFrame": 395,
+        "finFrame": 400
+      },
+      {
+        "palabra": "cumpleaños",
+        "inicioFrame": 400,
+        "finFrame": 418
+      },
+      {
+        "palabra": "y",
+        "inicioFrame": 418,
+        "finFrame": 431
+      },
+      {
+        "palabra": "muchas",
+        "inicioFrame": 431,
+        "finFrame": 443
+      }
+    ]
+  },
+  {
+    "texto": "otras. En NED las puedes",
+    "inicioFrame": 443,
+    "finFrame": 497,
+    "palabras": [
+      {
+        "palabra": "otras.",
+        "inicioFrame": 443,
+        "finFrame": 453
+      },
+      {
+        "palabra": "En",
+        "inicioFrame": 469,
+        "finFrame": 473
+      },
+      {
+        "palabra": "NED",
+        "inicioFrame": 473,
+        "finFrame": 481
+      },
+      {
+        "palabra": "las",
+        "inicioFrame": 481,
+        "finFrame": 490
+      },
+      {
+        "palabra": "puedes",
+        "inicioFrame": 490,
+        "finFrame": 497
+      }
+    ]
+  },
+  {
+    "texto": "crear en segundos, tenemos ocho",
+    "inicioFrame": 497,
+    "finFrame": 562,
+    "palabras": [
+      {
+        "palabra": "crear",
+        "inicioFrame": 497,
+        "finFrame": 508
+      },
+      {
+        "palabra": "en",
+        "inicioFrame": 508,
+        "finFrame": 514
+      },
+      {
+        "palabra": "segundos,",
+        "inicioFrame": 514,
+        "finFrame": 528
+      },
+      {
+        "palabra": "tenemos",
+        "inicioFrame": 540,
+        "finFrame": 548
+      },
+      {
+        "palabra": "ocho",
+        "inicioFrame": 548,
+        "finFrame": 562
+      }
+    ]
+  },
+  {
+    "texto": "dinámicas y vienen más. Además",
+    "inicioFrame": 562,
+    "finFrame": 622,
+    "palabras": [
+      {
+        "palabra": "dinámicas",
+        "inicioFrame": 562,
+        "finFrame": 577
+      },
+      {
+        "palabra": "y",
+        "inicioFrame": 577,
+        "finFrame": 586
+      },
+      {
+        "palabra": "vienen",
+        "inicioFrame": 586,
+        "finFrame": 595
+      },
+      {
+        "palabra": "más.",
+        "inicioFrame": 595,
+        "finFrame": 605
+      },
+      {
+        "palabra": "Además",
+        "inicioFrame": 614,
+        "finFrame": 622
+      }
+    ]
+  },
+  {
+    "texto": "de otras herramientas pensadas para",
+    "inicioFrame": 622,
+    "finFrame": 673,
+    "palabras": [
+      {
+        "palabra": "de",
+        "inicioFrame": 622,
+        "finFrame": 628
+      },
+      {
+        "palabra": "otras",
+        "inicioFrame": 628,
+        "finFrame": 634
+      },
+      {
+        "palabra": "herramientas",
+        "inicioFrame": 634,
+        "finFrame": 653
+      },
+      {
+        "palabra": "pensadas",
+        "inicioFrame": 653,
+        "finFrame": 665
+      },
+      {
+        "palabra": "para",
+        "inicioFrame": 665,
+        "finFrame": 673
+      }
+    ]
+  },
+  {
+    "texto": "tu negocio como ventas fiadas,",
+    "inicioFrame": 673,
+    "finFrame": 739,
+    "palabras": [
+      {
+        "palabra": "tu",
+        "inicioFrame": 673,
+        "finFrame": 678
+      },
+      {
+        "palabra": "negocio",
+        "inicioFrame": 678,
+        "finFrame": 692
+      },
+      {
+        "palabra": "como",
+        "inicioFrame": 692,
+        "finFrame": 705
+      },
+      {
+        "palabra": "ventas",
+        "inicioFrame": 705,
+        "finFrame": 727
+      },
+      {
+        "palabra": "fiadas,",
+        "inicioFrame": 727,
+        "finFrame": 739
+      }
+    ]
+  },
+  {
+    "texto": "reserva de citas, NPS, mostrar",
+    "inicioFrame": 751,
+    "finFrame": 828,
+    "palabras": [
+      {
+        "palabra": "reserva",
+        "inicioFrame": 751,
+        "finFrame": 763
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 763,
+        "finFrame": 767
+      },
+      {
+        "palabra": "citas,",
+        "inicioFrame": 767,
+        "finFrame": 781
+      },
+      {
+        "palabra": "NPS,",
+        "inicioFrame": 790,
+        "finFrame": 804
+      },
+      {
+        "palabra": "mostrar",
+        "inicioFrame": 817,
+        "finFrame": 828
+      }
+    ]
+  },
+  {
+    "texto": "tus productos o servicios. Puedes",
+    "inicioFrame": 828,
+    "finFrame": 889,
+    "palabras": [
+      {
+        "palabra": "tus",
+        "inicioFrame": 828,
+        "finFrame": 835
+      },
+      {
+        "palabra": "productos",
+        "inicioFrame": 835,
+        "finFrame": 848
+      },
+      {
+        "palabra": "o",
+        "inicioFrame": 848,
+        "finFrame": 855
+      },
+      {
+        "palabra": "servicios.",
+        "inicioFrame": 855,
+        "finFrame": 868
+      },
+      {
+        "palabra": "Puedes",
+        "inicioFrame": 868,
+        "finFrame": 889
+      }
+    ]
+  },
+  {
+    "texto": "tener todo listo en segundos",
+    "inicioFrame": 889,
+    "finFrame": 935,
+    "palabras": [
+      {
+        "palabra": "tener",
+        "inicioFrame": 889,
+        "finFrame": 895
+      },
+      {
+        "palabra": "todo",
+        "inicioFrame": 895,
+        "finFrame": 906
+      },
+      {
+        "palabra": "listo",
+        "inicioFrame": 906,
+        "finFrame": 919
+      },
+      {
+        "palabra": "en",
+        "inicioFrame": 919,
+        "finFrame": 921
+      },
+      {
+        "palabra": "segundos",
+        "inicioFrame": 921,
+        "finFrame": 935
+      }
+    ]
+  },
+  {
+    "texto": "y sin costo. No esperes",
+    "inicioFrame": 935,
+    "finFrame": 992,
+    "palabras": [
+      {
+        "palabra": "y",
+        "inicioFrame": 935,
+        "finFrame": 945
+      },
+      {
+        "palabra": "sin",
+        "inicioFrame": 945,
+        "finFrame": 952
+      },
+      {
+        "palabra": "costo.",
+        "inicioFrame": 952,
+        "finFrame": 971
+      },
+      {
+        "palabra": "No",
+        "inicioFrame": 978,
+        "finFrame": 980
+      },
+      {
+        "palabra": "esperes",
+        "inicioFrame": 980,
+        "finFrame": 992
+      }
+    ]
+  },
+  {
+    "texto": "más, descarga la app y",
+    "inicioFrame": 992,
+    "finFrame": 1037,
+    "palabras": [
+      {
+        "palabra": "más,",
+        "inicioFrame": 992,
+        "finFrame": 996
+      },
+      {
+        "palabra": "descarga",
+        "inicioFrame": 1007,
+        "finFrame": 1021
+      },
+      {
+        "palabra": "la",
+        "inicioFrame": 1021,
+        "finFrame": 1025
+      },
+      {
+        "palabra": "app",
+        "inicioFrame": 1025,
+        "finFrame": 1031
+      },
+      {
+        "palabra": "y",
+        "inicioFrame": 1031,
+        "finFrame": 1037
+      }
+    ]
+  },
+  {
+    "texto": "disfruta el poder de la",
+    "inicioFrame": 1037,
+    "finFrame": 1076,
+    "palabras": [
+      {
+        "palabra": "disfruta",
+        "inicioFrame": 1037,
+        "finFrame": 1054
+      },
+      {
+        "palabra": "el",
+        "inicioFrame": 1054,
+        "finFrame": 1057
+      },
+      {
+        "palabra": "poder",
+        "inicioFrame": 1057,
+        "finFrame": 1066
+      },
+      {
+        "palabra": "de",
+        "inicioFrame": 1066,
+        "finFrame": 1072
+      },
+      {
+        "palabra": "la",
+        "inicioFrame": 1072,
+        "finFrame": 1076
+      }
+    ]
+  },
+  {
+    "texto": "Lealtad.",
+    "inicioFrame": 1076,
+    "finFrame": 1091,
+    "palabras": [
+      {
+        "palabra": "Lealtad.",
+        "inicioFrame": 1076,
+        "finFrame": 1091
+      }
+    ]
+  }
+]
