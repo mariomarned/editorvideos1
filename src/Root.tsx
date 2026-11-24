@@ -22,12 +22,12 @@ export const RemotionRoot: React.FC = () => {
         <Composition
           id="NedNpsReel"
           component={NpsReel}
-          durationInFrames={1170}
+          durationInFrames={1158}
           fps={MARCA_NED.video.fps}
           width={MARCA_NED.video.vertical.width}
           height={MARCA_NED.video.vertical.height}
           defaultProps={{
-            tituloGancho: "NED ahora tiene",
+            tituloGancho: "NED tiene",
             llamadoAccion: "NED ES GRATUITA",
           }}
         />

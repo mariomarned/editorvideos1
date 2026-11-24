@@ -13,7 +13,7 @@ import {
 import { MARCA_NED as MARCA } from "../../../marcas/ned";
 import { Efecto } from "../../../componentes/Efecto";
 import { SegmentoSubtitulo, Subtitulos } from "../../../componentes/Subtitulos";
-import subtitulosData from "../../../../public/ned/subtitulos/ned-zencillo.json";
+import subtitulosData from "../../../../public/ned/subtitulos/zencillo/ned-zencillo.json";
 
 const SEGMENTOS = subtitulosData as SegmentoSubtitulo[];
 
@@ -825,7 +825,7 @@ export const NedZencilloReel: React.FC = () => {
       <DecoracionUrbanaMemphis />
 
       {/* Pista principal de narración */}
-      <Audio src={staticFile("ned/audio/ned-zencillo-voz.mp3")} volume={1} />
+      <Audio src={staticFile("ned/audio/zencillo/ned-zencillo-voz.mp3")} volume={1} />
 
       {/* Música de fondo instrumental desde la segunda escena con fade-in y fade-out */}
       <Sequence from={148} durationInFrames={1387}>

@@ -190,7 +190,7 @@ const Escena2LanzamientoImagen1: React.FC = () => {
   );
 };
 
-/** Escena 3 (188 - 438): Compra -> Notificación -> Más información */
+/** Escena 3 (206 - 396): Compra -> Notificación */
 const Escena3NotificacionCompra: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -202,26 +202,26 @@ const Escena3NotificacionCompra: React.FC = () => {
         style={{
           opacity: logoIn,
           scale: `${0.88 + logoIn * 0.12}`,
-          marginBottom: 14,
+          marginBottom: 18,
         }}
       >
         <Img
           src={staticFile(MARCA.logos.icono)}
           style={{
-            width: 200,
-            height: 200,
+            width: 220,
+            height: 220,
             objectFit: "contain",
             filter: "drop-shadow(6px 10px 0 rgba(20, 17, 29, 0.22))",
           }}
         />
       </div>
 
-      <div style={{ marginBottom: 24 }}>
+      <div style={{ marginBottom: 28 }}>
         <TituloSuperiorNed
           lineaSuperior="Cuando registras"
           pildora="una compra"
-          tamanoSuperior={50}
-          tamanoPildora={52}
+          tamanoSuperior={52}
+          tamanoPildora={54}
         />
       </div>
 
@@ -229,7 +229,7 @@ const Escena3NotificacionCompra: React.FC = () => {
         style={{
           display: "flex",
           flexDirection: "column",
-          gap: 18,
+          gap: 22,
           width: "100%",
         }}
       >
@@ -237,22 +237,15 @@ const Escena3NotificacionCompra: React.FC = () => {
           icono="🛒"
           titulo="Registras la compra"
           detalle="Manual en NED o desde tu POS"
-          retrasoFrames={12}
+          retrasoFrames={10}
           acento={MARCA.colores.primario}
         />
         <TarjetaSticker
           icono="🔔"
           titulo="Tu cliente recibe aviso"
           detalle="¿Qué tan probable es que nos recomiendes?"
-          retrasoFrames={68}
+          retrasoFrames={64}
           acento={MARCA.colores.textoOscuro}
-        />
-        <TarjetaSticker
-          icono="💬"
-          titulo="Más información"
-          detalle="Puede contarte cómo fue su experiencia"
-          retrasoFrames={170}
-          acento={MARCA.colores.primario}
         />
       </div>
     </AbsoluteFill>
@@ -362,7 +355,7 @@ const Escena5RecuperarImagen3: React.FC = () => {
           icono="📈"
           titulo="Más probabilidades de recuperarlos"
           detalle="Las estadísticas respaldan responder rápido"
-          retrasoFrames={130}
+          retrasoFrames={152}
           acento={MARCA.colores.textoOscuro}
         />
       </div>
@@ -555,16 +548,16 @@ export const NpsReel: React.FC<NpsReelProps> = ({
       <DecoracionUrbanaMemphis />
 
       {/* Pista principal de narración */}
-      <Audio src={staticFile("ned/audio/nps/nps-voz.mp3")} volume={1} />
+      <Audio src={staticFile("ned/audio/nps/danielanps.mp3")} volume={1} />
 
       {/* Música de fondo desde la escena 2 con fade-in y fade-out */}
-      <Sequence from={64} durationInFrames={1106}>
+      <Sequence from={64} durationInFrames={1094}>
         <Audio
           src={staticFile(
             "ned/audio/musicafondo/Follow Me - The Soundlings.mp3"
           )}
           volume={(f) =>
-            interpolate(f, [0, 30, 1046, 1106], [0, 0.11, 0.11, 0], {
+            interpolate(f, [0, 30, 1034, 1094], [0, 0.11, 0.11, 0], {
               extrapolateLeft: "clamp",
               extrapolateRight: "clamp",
             })
@@ -579,19 +572,19 @@ export const NpsReel: React.FC<NpsReelProps> = ({
       <Sequence from={64} durationInFrames={25}>
         <Efecto audioSrc="audio/cc0/blip-plock-pop.mp3" volumen={0.45} />
       </Sequence>
-      <Sequence from={188} durationInFrames={30}>
+      <Sequence from={206} durationInFrames={30}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.4} />
       </Sequence>
-      <Sequence from={438} durationInFrames={25}>
+      <Sequence from={396} durationInFrames={25}>
         <Efecto audioSrc="audio/cc0/blip-plock-pop.mp3" volumen={0.45} />
       </Sequence>
-      <Sequence from={590} durationInFrames={30}>
+      <Sequence from={558} durationInFrames={30}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.4} />
       </Sequence>
-      <Sequence from={858} durationInFrames={25}>
+      <Sequence from={848} durationInFrames={25}>
         <Efecto audioSrc="audio/cc0/blip-plock-pop.mp3" volumen={0.45} />
       </Sequence>
-      <Sequence from={962} durationInFrames={30}>
+      <Sequence from={948} durationInFrames={30}>
         <Efecto audioSrc="audio/cc0/Deep_Whoosh_1.mp3" volumen={0.45} destello />
       </Sequence>
 
@@ -599,22 +592,22 @@ export const NpsReel: React.FC<NpsReelProps> = ({
       <Sequence from={0} durationInFrames={64}>
         <Escena1NuevaFuncion titulo={tituloGancho} />
       </Sequence>
-      <Sequence from={64} durationInFrames={124}>
+      <Sequence from={64} durationInFrames={142}>
         <Escena2LanzamientoImagen1 />
       </Sequence>
-      <Sequence from={188} durationInFrames={250}>
+      <Sequence from={206} durationInFrames={190}>
         <Escena3NotificacionCompra />
       </Sequence>
-      <Sequence from={438} durationInFrames={152}>
+      <Sequence from={396} durationInFrames={162}>
         <Escena4FrecuenciaImagen2 />
       </Sequence>
-      <Sequence from={590} durationInFrames={268}>
+      <Sequence from={558} durationInFrames={290}>
         <Escena5RecuperarImagen3 />
       </Sequence>
-      <Sequence from={858} durationInFrames={104}>
+      <Sequence from={848} durationInFrames={100}>
         <Escena6ConfiguracionPerfil />
       </Sequence>
-      <Sequence from={962} durationInFrames={208}>
+      <Sequence from={948} durationInFrames={210}>
         <Escena7CierreGratuita llamadoAccion={llamadoAccion} />
       </Sequence>
 

@@ -15,6 +15,6 @@
 ## 2026-11-23
 - Creación del nuevo proyecto **NPS** dentro de **NED**:
   - Extracción de la base de diseño urbana de NED (`DecoracionUrbanaMemphis`, `PildoraNed`, `OvaloDestacado`, `TarjetaSticker`, `MarcoSticker` y `FONDO_RADIAL_NED`) en `src/videos/ned/componentes/DisenoNed.tsx`.
-  - Composición `NedNpsReel` (`1080×1920`, 30 fps, 1170 frames / 39 s) en `src/videos/ned/02-nps/NpsReel.tsx`, registrada en `src/Root.tsx` bajo `<Folder name="NED">` con la misma línea visual de `NedZencilloReel`.
-  - Integración de las capturas `imagen 1.png`, `imagen 2.png` e `imagen 3.png` de `public/ned/material/nps/`, narración sincronizada en `public/ned/audio/nps/nps-voz.mp3`, subtítulos por palabra en `public/ned/subtitulos/nps/nps.json` y música de fondo `Follow Me - The Soundlings.mp3`.
+  - Composición `NedNpsReel` (`1080×1920`, 30 fps, 1158 frames / 38.60 s) en `src/videos/ned/02-nps/NpsReel.tsx`, registrada en `src/Root.tsx` bajo `<Folder name="NED">` con la misma línea visual de `NedZencilloReel`.
+  - Integración de las capturas `imagen 1.png`, `imagen 2.png` e `imagen 3.png` de `public/ned/material/nps/`, narración personalizada en `public/ned/audio/nps/danielanps.mp3`, subtítulos por palabra transcritos en `public/ned/subtitulos/nps/nps.json` y música de fondo `Follow Me - The Soundlings.mp3`.
   - Libreto completo y textos de publicación en `guiones/ned/02-nps.md`.
